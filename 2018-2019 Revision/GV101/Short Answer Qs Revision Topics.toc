@@ -1,14 +1,24 @@
 \contentsline {section}{\numberline {1}The Modernisation Theory of Democratisation}{3}
 \contentsline {subsection}{\numberline {1.1}Key Ideas}{3}
 \contentsline {subsection}{\numberline {1.2}The Political Science Approach}{3}
-\contentsline {subsection}{\numberline {1.3}Summary}{3}
+\contentsline {subsection}{\numberline {1.3}Summary of Modernisation Theory}{3}
 \contentsline {section}{\numberline {2}The Selectorate Theory for Non-Democratic Regimes}{4}
 \contentsline {subsection}{\numberline {2.1}Types of Selectorate and Winning Coalition}{4}
 \contentsline {subsection}{\numberline {2.2}Loyalty Norm}{4}
 \contentsline {subsection}{\numberline {2.3}Size of the Winning Coalition}{5}
+\contentsline {subsection}{\numberline {2.4}Summary of Selectorate Theory}{5}
 \contentsline {section}{\numberline {3}Differences between Strategic and Expressive Voting}{6}
-\contentsline {section}{\numberline {4}Down's Theory of Party Competition}{7}
-\contentsline {section}{\numberline {5}Olson's Theory of Collective Action}{8}
-\contentsline {section}{\numberline {6}Tsbelis' theory of veto-players and agenda setters}{9}
-\contentsline {section}{\numberline {7}Office vs Policy Seeking Theories of Coalitions}{10}
-\contentsline {section}{\numberline {8}Principal-Agent theory of Independent Institutions}{11}
+\contentsline {subsection}{\numberline {3.1}Expressive}{6}
+\contentsline {subsection}{\numberline {3.2}Strategic}{6}
+\contentsline {subsection}{\numberline {3.3}Why vote strategically?}{6}
+\contentsline {subsection}{\numberline {3.4}Summary of Expressive and Strategic Voting}{7}
+\contentsline {section}{\numberline {4}Down's Theory of Party Competition}{8}
+\contentsline {subsection}{\numberline {4.1}Assumption of the Downsian Model}{8}
+\contentsline {subsection}{\numberline {4.2}The Downsian Model}{8}
+\contentsline {subsection}{\numberline {4.3}Reasons Why Parties Might Not Converge}{9}
+\contentsline {subsection}{\numberline {4.4}Summary of Downs Party Theory}{9}
+\contentsline {section}{\numberline {5}Olson's Theory of Collective Action}{10}
+\contentsline {subsection}{\numberline {5.1}The Logic of Collective Action}{10}
+\contentsline {section}{\numberline {6}Tsbelis' theory of veto-players and agenda setters}{12}
+\contentsline {section}{\numberline {7}Office vs Policy Seeking Theories of Coalitions}{13}
+\contentsline {section}{\numberline {8}Principal-Agent theory of Independent Institutions}{14}
