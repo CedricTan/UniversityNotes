@@ -1,12 +1,14 @@
 \documentclass[12pt, letterpaper]{article}
 \usepackage[margin=1in]{geometry}
 \usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
 \graphicspath{ {figures_EC102/} }
 
 \title{
-	EC102 Macroeconomics\\
-	\large{Franceso Caselli}\\
-	\large{Revision Document}
+	{EC102 Macroeconomics}\\
+	{\large{Professor Franceso Caselli}}\\
+	{\large{Revision Document}}
 }
 \author{Cedric Tan}
 \date{April 2019}
@@ -563,7 +565,174 @@ Find related materials here
 \end{itemize}
 
 \section{Economic Fluctuations}
-This section will dive into the economic fluctutations commonly seen within an economy.
+This section will dive into the economic fluctuations commonly seen within an economy. There exists two types of fluctuation in the economy:
+\begin{itemize}
+	\item Aggregate Demand Shocks
+	\item Aggregate Supply Shocks
+\end{itemize}
+
+These can also be talked about as:
+\begin{itemize}
+	\item Tailwinds $\rightarrow$ pick up in growth
+	\item Headwings $\rightarrow$ shock slowing down rate of growth
+\end{itemize}
+
+\subsection{Demand Shocks}
+We will first discuss demand shocks in the economy.
+
+\subsubsection{GDP Composition}
+Recalling the equation
+\begin{center}
+
+$ GDP = C + I + G + (X-M)$
+
+\end{center}
+
+From here we can see the breakdown:
+\begin{itemize}
+	\item \textbf{(C)onsumption:} goods and services bought by households
+	\item \textbf{(G)overnment Spending:} goods and services bought (or produced) by the government
+	\item \textbf{(I)nvestment:} investment goods bought by firms
+	\item \textbf{(E(x)ports):} goods, services and investment goods sold abroad
+	\item \textbf{(I(m)ports):} goods, services and investment goods bought abroad
+\end{itemize}
+
+With these we can move on to how this composition can cause the actual shock.
+
+\subsubsection{Aggregate Demand}
+Anything that suddenly causes:
+\begin{itemize}
+	\item A change in government spending \textbf{G}
+	\item A change in \textit{desired} investment \textbf{I}
+	\item A change in \textit{desired} investment \textbf{C}
+	\item A change in net exports \textbf{NX}
+\end{itemize}
+
+Following that, we can see some examples of demand shocks:
+\begin{itemize}
+	\item \textbf{G:}
+		\begin{itemize}
+			\item Wars $\rightarrow$ planned spending increases due to necessity of building and providing materials
+			\item Changes in ideology $\rightarrow$ austerity in government spending, reducing \textbf{G} by a large amount
+			\item Fiscal crises, such as Venezuela and hyperinflation and further  Sovereign Debt Crises
+		\end{itemize}
+	\item \textbf{I and C:}
+		\begin{itemize}
+			\item Changes in taxes $\rightarrow$ increases in income tax decreases ability to consume while increases in corporate tax will reduce investment - the counter case is probable too
+			\item Changes in wealth $\rightarrow$ anticipation in increasing wealth and its tangible effects on how one would spend. If you think you are wealthy, your propensity to spend increases as well
+			\item Psychological changes (Keynesian animal spirits) $\rightarrow$ anticipation, proclivities or behavioural reaction that is unpredictable and ultimately reliant on the individual
+		\end{itemize}
+	\item \textbf{X - M:}
+		\begin{itemize}
+			\item Changes in exchange rates $\rightarrow$ a result of currency strength
+			\item Foreign demand shocks $\rightarrow$ they could reduce or increase exports and imports depending on what the shock is. If it's negative, exports are likely to reduce while imports, due to lower production, might also reduce
+		\end{itemize}
+\end{itemize}
+
+However, one has to be careful on the causality of aggregate demand shocks on GDP:
+\begin{center}
+	$GDP = C + I + G + (X-M)$ \\
+	This is not a causal relationship
+\end{center}
+You have to question what makes firms respond to the change in AD as GDP is not simply caused by planned spending. There is a missing step as well that might not be identified in the equation.
+
+\subsubsection{Narrative of the Aggregate Demand Shock}
+With the previous in mind, let's construct a narrative to show how an aggregate demand shock actually works:
+\begin{enumerate}
+	\item Consumers decide to spend 10% more
+		\begin{itemize}
+			\item They have increased confidence
+			\item They have an improved ability to pay
+			\item They have an increased level of wealth
+		\end{itemize}
+	\item This leads to an increase in aggregate demand by 10\% as planned spending has increased
+	\item Marginal costs go up
+		\begin{itemize}
+			\item Marginal costs of production increase
+			\item This is through expansion of production due to demand increasing
+		\end{itemize}
+	\item Prices go up
+		\begin{itemize}
+			\item Since marginal costs increase, this is translated into price:
+			\item $MC > P \therefore\; P\uparrow\; \therefore\; MC\uparrow\; until\;MC = P$ 
+		\end{itemize}
+	\item Increase is proportional i.e. 10\% increase in prices
+		\begin{itemize}
+			\item Price increase will match demand increase
+			\item Equilibrium is a situation where the economy ends up in after the shock
+		\end{itemize}
+\end{enumerate}
+
+The price increase matches the demand increase because:
+\begin{itemize}
+	\item Consumers are happy as they are spending 10\%
+	\item Firms are happy as marginal cost is up 10\% as it depends on prices and wages
+		\begin{itemize}
+			\item Same amount of materials and workers
+			\item Wages are 10\% higher as well due to price increase, all
+		\end{itemize}
+	\item Marginal revenue is up 10\% as it is the price, MR=MC\\
+\end{itemize}
+\textbf{Lessons from the narrative:} \\ \\
+After an aggregate demand shock:
+\begin{itemize}
+	\item Quantities change in the same direction
+	\item Prices (gradually) adjust in the same direction
+	\item After prices have adjusted, no effect on quantities, a movement back to its original position
+\end{itemize}
+The size and duration of effect on quantities depend on speed of price adjustment:
+\begin{itemize}
+	\item A fast price adjustment has a small impact on quantities
+	\item A slow price adjustment has a big impact on quantities
+\end{itemize}
+
+We can see that price changes, however, vary heavily between firms. Below is a table of collected data from the University of Chicago by Blinder (1994):
+\begin{center}
+	\begin{tabular}{c c}
+		Frequency & Percentage of Firms\\
+		\hline
+		Less than one & 10.2\\
+		Once & 39.3\\
+		1.01 to 2 & 15.6\\
+		2.01 to 4 & 12.9\\
+		4.01 to 12 & 7.5\\
+		12.01 to 52 & 4.3\\
+		52.01 to 365 & 8.6\\
+		More than 365 & 1.6\\
+		\hline
+	\end{tabular}
+\end{center}
+Hence, we can see that the price change which is most popular, \textbf{once,} shows the relatively infrequent changes in price that a firm puts out. It can be argued that due to this low infrequency, the aggregate demand shock is actually absorbed by firms. \\\\
+\textbf{Explanations for Price Stickiness}\\
+Here are some explanations why prices might not change as frequently as one might think, i.e. in alignment with the \textbf{frequency of aggregate demand shocks} people experience.
+\begin{itemize}
+	\item \textbf{Menu costs:} there are costs associated to changing the price such as physically having to print new menus
+	\item \textbf{Information costs:} there is an opportunity cost of time to get and process information on what the right price to put is
+	\item \textbf{Strategic considerations:} perhaps being the first to move on price might be bad, especially increasing, as market share can go down drastically if a lot of other substitutes are in place
+	\item \textbf{Wage rigidity:} wages change very rarely, typically yearly, so price adjustment would not fit wages. Wages $\rightarrow$ Demand $\rightarrow$ Prices. Thus rigidity begets rigidity, if prices were to change, consumers might switch or not purchase
+\end{itemize}
+
+\subsection{Counter-cyclical Policy}
+\textbf{Goals of counter-cyclical policy:}
+\begin{itemize}
+	\item Counter negative aggregate demand shocks to prevent recessions
+	\item Counter positive aggregate demand shocks to prevent excessive inflation
+\end{itemize}
+
+There are two main types of counter-cyclical policy:
+\begin{itemize}
+	\item \textbf{Fiscal Policy:}
+		\begin{itemize}
+			\item Changes in government spending (including transfers) and taxes
+			\item Run by the treasury (though this is country dependent)
+		\end{itemize}
+	\item \textbf{Monetary Policy:}
+		\begin{itemize}
+			\item Purchases and sales of financial assets, setting of statutory i.e. required interest rates
+			\item Run by the central bank
+		\end{itemize}
+\end{itemize}
+
 
 
 \end{document}
