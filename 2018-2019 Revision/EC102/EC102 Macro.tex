@@ -187,13 +187,18 @@ But here are some pro-growth arguments to counter those above:
 So perhaps we can leave the no-growth option as an individual one. You choose yourself if you want to pursue this path but it should not be one that society as a whole adopts.
 
 \subsection{Economic Growth: Appendix}
-Find related materials here 
+Find related materials here. Some may be repeated from other appendices.
 \subsubsection{Formulae and Definitions}
 \begin{itemize}
 	\item \textbf{Growth Rate:}
 		\begin{itemize}
-			\item Change is the new level divided by the initial level
+			\item Change is the new level divided by the initial level.
 			\item \textbf{Formula:} $\frac{GDP_{T2} - GDP_{T1}}{GDP_{T1}}$
+		\end{itemize}
+	\item \textbf{GDP:}
+		\begin{itemize}
+			\item The amount of goods and services produced in an economy in a year.
+			\item \textbf{Formula:} $GDP = C + I + G + (X-M)$
 		\end{itemize}
 \end{itemize}
 
@@ -539,32 +544,33 @@ Another issue to consider when thinking about growth is corruption. Here are som
 \end{itemize}
 
 \subsection{Growth Engines: Appendix}
-Find related materials here
+Find related materials here. Some may be repeated from other appendices.
 \subsubsection{Formulae and Definitions}
 \begin{itemize}
 	\item \textbf{Investment Rate:}
 		\begin{itemize}
-			\item A measure of the sacrifice an economy makes of current consumption for a greater level of future consumption
+			\item A measure of the sacrifice an economy makes of current consumption for a greater level of future consumption.
 			\item \textbf{Formula:} $Investment\;rate = \frac{Level\;of\;investment}{GDP}$
 		\end{itemize}
 	\item \textbf{Average Product of Capital:}
 		\begin{itemize}
-			\item The amount of product that you gain from total capital invested into a worker
+			\item The amount of product that you gain from total capital invested into a worker.
 			\item \textbf{Formula:} $Average\;Product\;of\;Capital = \frac{GDP\;per\;Worker}{Capital\;per\;Worker}$
 		\end{itemize}
 	\item \textbf{$\Delta$ in Capital per Worker:}
 		\begin{itemize}
-			\item The change in capital that a worker has, averaged across the whole economy
+			\item The change in capital that a worker has, averaged across the whole economy.
 			\item \textbf{Formula:} $\Delta Capital\;per\;worker = investment\; rate \times GDP\;per\;Worker$
 		\end{itemize}
 	\item \textbf{Growth Rate of Capital per Worker:}
 		\begin{itemize}
-			\item The growth in capital that a worker has, averaged across the whole economy
+			\item The growth in capital that a worker has, averaged across the whole economy.
 			\item \textbf{Formula:} $Growth\;Rate\;of\; Capital\;per\;worker = investment\; rate \times (GDP\;per\;Worker / Capital\;per\;worker)$
 		\end{itemize}
 		
 \end{itemize}
 
+\newpage
 \section{Economic Fluctuations}
 This section will dive into the economic fluctuations commonly seen within an economy. There exists two types of fluctuation in the economy:
 \begin{itemize}
@@ -911,6 +917,7 @@ To understand how this works, we will first need to understand the complexities 
 	\noindent\fbox{\begin{minipage}{.8\textwidth}
 		\textbf{Key facts about Bonds:} 
 		\begin{itemize}
+			\item Simply a vehicle through which one can borrow money
 			\item They can be issued by the government or firms. 
 			\item Bonds issued by the government are usually labelled as \textbf{risk free bonds.} 
 			\item The bond purchaser pays, known as the \textbf{lender.} 
@@ -920,6 +927,144 @@ To understand how this works, we will first need to understand the complexities 
 	\end{itemize}
 	\end{minipage}}
 \end{center}
+And on top of that, a bit of financial terminology through looking at the \textbf{Yield Curve} which is presented by a simple picture below:
+\begin{center}
+\begin{tikzpicture}
+	\coordinate (A) at (-3.5, 0);
+	\coordinate [label=left:$Interest\;Rate$] (B) at (-3.5, 4);
+	\coordinate [label=below:$Maturity$] (C) at (3.5, 0);
+	\draw [thick, ->] (A) -- (B);
+	\draw [thick, ->] (A) -- (C);
+	\coordinate (Start) at (-3.5, 1);
+	\coordinate [label=right:$Y_1$] (End) at (3.5, 3.5);
+	\draw (Start) -- (End);
+\end{tikzpicture}
+\end{center}
+It slopes up because of the concept called \textbf{Liquidity Premium:} where lenders require extra compensation for locking money in $\rightarrow$ no access in case of emergency or opportunity, unless sold on secondary markets.
+
+Now, establishing our yield curve, we can begin to analyse how the central bank can affect it with \textbf{conventional monetary policy.} This is done through policy rates which affect the most shortest of terms such as deposits, which can be taken out at any time and interbank loans which typically last one or two days. Thus if the central bank lowers policy rates, we can see the shift in the yield curve below:
+\begin{center}
+\begin{tikzpicture}
+	\coordinate (A) at (-3.5, 0);
+	\coordinate [label=left:$Interest\;Rate$] (B) at (-3.5, 4);
+	\coordinate [label=below:$Maturity$] (C) at (3.5, 0);
+	\draw [thick, ->] (A) -- (B);
+	\draw [thick, ->] (A) -- (C);
+	\coordinate (Start) at (-3.5, 1);
+	\coordinate [label=right:$Y_1$] (End) at (3.5, 3.5);
+	\draw (Start) -- (End);
+	\coordinate (Start_2) at (-3.5, .5);
+	\coordinate [label=right:$Y_2$] (End_2) at (3.5, 3);
+	\draw (Start_2) -- (End_2);
+	\draw [->] (-3.7, 1) -- (-3.7, .5);
+	\coordinate [label=left:$\Delta Policy\;Rate$] (Middle) at (-3.8, .75);
+\end{tikzpicture}
+\end{center}
+Since policy rates are very short term, the maturity is right next to the origin. Further, knowing that interest rates move together, we see a shift downwards at all maturities following this trend. However, this is not the problem we are facing at the ELB. What we are seeing at the ELB is an inability to change the policy rates as shown below:
+
+\begin{center}
+\begin{tikzpicture}
+	\coordinate (A) at (-3.5, 0);
+	\coordinate [label=left:$Interest\;Rate$] (B) at (-3.5, 4);
+	\coordinate [label=below:$Maturity$] (C) at (3.5, 0);
+	\draw [thick, ->] (A) -- (B);
+	\draw [thick, ->] (A) -- (C);
+	\coordinate (Start) at (-3.5, 0);
+	\coordinate [label=right:$Y_1$] (End) at (3.5, 2.5);
+	\draw (Start) -- (End);
+\end{tikzpicture}
+\end{center}
+As shown in the picture above, there is no scope to change the policy rate as it is at the ELB. Thus, unconventional monetary policy aims to flatten the yield curve by dragging it down directly at the later maturities to push the yield curve to a new position as shown below:
+\begin{center}
+\begin{tikzpicture}
+	\coordinate (A) at (-3.5, 0);
+	\coordinate [label=left:$Interest\;Rate$] (B) at (-3.5, 4);
+	\coordinate [label=below:$Maturity$] (C) at (3.5, 0);
+	\draw [thick, ->] (A) -- (B);
+	\draw [thick, ->] (A) -- (C);
+	\coordinate (Start) at (-3.5, 0);
+	\coordinate [label=right:$Y_1$] (End) at (3.5, 2.5);
+	\draw (Start) -- (End);
+	\coordinate (Start_2) at (-3.5, 0);
+	\coordinate [label=right:$Y_2$] (End_2) at (3.5, 1.5);
+	\draw (Start_2) -- (End_2);
+	\draw [->] (3.7, 2.3) -- (3.7, 1.75);
+\end{tikzpicture}
+\end{center}
+This works through our relationship between Bond Purchases and Interest Rates:
+\begin{itemize}
+	\item Interest rates fall if demand for bonds exceeds supply $\rightarrow$ this is because more people want to lend money thus those borrowing can bargain for a lower interest rate
+	\item Interest rates increase if supply of bonds exceeds demand $\rightarrow$ this is because more people want to borrow money thus those lending can bargain for a higher interest rate
+\end{itemize}
+Since the central bank is taking bonds out of the market, they artificially cause the supply to fall relative to demand. This makes interest rates fall as we have argued above which makes it easier to borrow. Since interest rates effectively fall down, this affects consumption and investment, stimulating them and subsequently the economy.
+
+However, as a result of this, a lot of central banks balance sheets have exploded due to the amount of long-dated assets that they now hold. To affect interest rates, one must remember that you need to deal in the billions and trillions to move rates around. \textbf{The question of how the central banks will get rid of these assets remains.}\\\\
+
+\textbf{Does Quantitative Easing Work?}\\
+Compared to conventional monetary policy, the data available for QE is basically non-existent. However, the effects of QE have definitely placed us in a better position than what we would have been. Not only in economic terms but the uplift in supply of money in the system also provided a psychological boon that prevented our mindsets to go into a deeper recession. Therefore the answer is: \textit{Who knows? But it's better than nothing.}
+
+\subsection{Supply Shocks}
+Now we move onto the topic of Supply Shocks. This is any shock in the economy to do with the supply side such, usually production.
+
+\subsubsection{Examples of Supply Shocks}
+We will begin with some examples:
+\begin{itemize}
+	\item Accelerations or decelerations in technical change $\rightarrow$ technological change at a rate that is vastly different to the standard level of technological change can lead to large efficiency gains in production providing a supply shock
+	\item Changes in the costs of materials $\rightarrow$ costs which are passed onto production, such as oil, can implicitly control the level of supply as they are inputs into production. Firms have to decide on the level of supply they want to produce and the costs of these inputs impacts them greatly
+\end{itemize}
+
+\subsubsection{Supply Shocks and Prices}
+Supply shocks have the opposite implications to demand shocks. When there is an expansionary supply shock, there tends to be a fall in prices as costs of production are usually decreasing. When it's contractionary, prices tend to increases as costs of production increase as well. Quantity and prices move in the opposite direction from a supply side perspective. If the quantity of supply increases, prices tend to fall \textbf{note that this is already different from demand.}\\
+
+Further, supply shocks add to the central banks' dilemmas:
+\begin{itemize}
+	\item One cannot tell where the economy is relative to the natural rate when the supply shock occurs
+	\item Contractionary supply shocks reduce quantity and increase price, seen to be the worst of both worlds
+	\item Demand cannot be boosted by reducing interest rates as price levels will be exacerbated
+\end{itemize}
+An example to illustrate this dilemma is when a contractionary supply shock is misdiagnosed as a contractionary demand shock. An attempt at expansionary fiscal policy will have the average price level of goods shooting through the roof.
+
+\subsubsection{The Relative (UN)Importance of Supply Shocks}
+Yet, supply shocks do not seem to matter as much and here are some examples why:
+\begin{itemize}
+	\item Implausibility of technological regress $\rightarrow$ we don't forget the progress that aids production
+	\item Many cycles with no clear shock to material prices $\rightarrow$ theres an inability to identify absolute causes to shocks
+	\item Prices are procyclical on average $\rightarrow$ prices move usually in the same direction of the cycle while supply shocks are counter-cyclical
+\end{itemize}
+
+\subsection{Economic Fluctuations: Appendix}
+Find related materials here. Some may be repeated from other appendices.
+\subsubsection{Formulae and Definitions}
+\begin{itemize}
+	\item \textbf{GDP:}
+		\begin{itemize}
+			\item The amount of goods and services produced in an economy in a year.
+			\item \textbf{Formula:} $GDP = C + I + G + (X-M)$
+		\end{itemize}
+	\item \textbf{Deficit:}
+		\begin{itemize}
+			\item When government spending exceeds government revenues.
+			\item \textbf{Formula:} $-\Delta Deficit = Spending - Revenue$
+		\end{itemize}	
+	\item \textbf{Surplus:}
+		\begin{itemize}
+			\item When government revenues exceeds government spending.
+			\item \textbf{Formula:} $+\Delta Deficit = Spending - Revenue$
+		\end{itemize}	
+\end{itemize}
+
+
+\newpage
+\section{Inflation and Deflation}
+Now we begin on the topic of inflation with some \textbf{definitions:}
+\begin{itemize}
+	\item \textbf{Inflation:} the sustained increased in the level of prices
+	\item \textbf{Inflation Rate:} the percentage change in the level of prices
+	\item \textbf{Consumer Price Index:} measures the cost of buying a representative bundle of consumer goods and services year on year
+	\item \textbf{Deflation:} the sustained decreased in the level of prices, where people are spending less in the economy with the expectation of further price drops
+\end{itemize}
+
+\subsection{Absolute versus Relative Prices}
 
 
 \end{document}
