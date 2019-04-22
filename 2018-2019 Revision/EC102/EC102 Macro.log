@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.8)  19 APR 2019 23:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.8)  21 APR 2019 13:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -360,36 +360,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 705--708
 
  []
 
-[20] (./EC102 Macro.aux) ) 
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 742--743
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 747--748
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 772--774
+
+ []
+
+[21] [22] (./EC102 Macro.aux) ) 
 Here is how much of TeX's memory you used:
- 2884 strings out of 494091
- 39958 string characters out of 6163524
+ 2885 strings out of 494091
+ 39976 string characters out of 6163524
  110811 words of memory out of 5000000
- 6508 multiletter control sequences out of 15000+600000
+ 6509 multiletter control sequences out of 15000+600000
  15259 words of font info for 58 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  41i,7n,32p,455b,303s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018basic/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018basic/texmf-dist/font
-s/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2018basic/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018basic/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018basic/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018basic
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018ba
-sic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/201
-8basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/
-2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
-e/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
-/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
-ocal/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmu10.pfb></us
-r/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
-.pfb>
-Output written on "EC102 Macro.pdf" (20 pages, 594785 bytes).
+</usr/local/texlive/2018basic/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018basic/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018basic/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2018basic/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018basic/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018bas
+ic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018
+basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2
+018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texliv
+e/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/tex
+live/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
+exlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
+al/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
+local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
+usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmu10.pfb
+></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/symbols/m
+sam10.pfb>
+Output written on "EC102 Macro.pdf" (22 pages, 599800 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
+ 144 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -20,6 +20,9 @@
 \contentsline {section}{\numberline {5}Olson's Theory of Collective Action}{10}
 \contentsline {subsection}{\numberline {5.1}The Logic of Collective Action}{10}
 \contentsline {subsection}{\numberline {5.2}Summary of Olson's Theory of Collective Action}{11}
-\contentsline {section}{\numberline {6}Tsbelis' theory of veto-players and agenda setters}{12}
-\contentsline {section}{\numberline {7}Office vs Policy Seeking Theories of Coalitions}{13}
-\contentsline {section}{\numberline {8}Principal-Agent theory of Independent Institutions}{14}
+\contentsline {section}{\numberline {6}Tsbelis' Theory of Veto Players and Agenda Setters}{12}
+\contentsline {subsection}{\numberline {6.1}Tsebelis Overview}{12}
+\contentsline {subsection}{\numberline {6.2}Individual Veto Players}{12}
+\contentsline {subsection}{\numberline {6.3}Summary of Veto Players and Agenda Setters}{13}
+\contentsline {section}{\numberline {7}Office vs Policy Seeking Theories of Coalitions}{14}
+\contentsline {section}{\numberline {8}Principal-Agent theory of Independent Institutions}{15}
