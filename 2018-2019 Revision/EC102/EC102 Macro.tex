@@ -3,6 +3,7 @@
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{tikz}
 \graphicspath{ {figures_EC102/} }
 
 \title{
@@ -794,10 +795,131 @@ We now move onto Monetary Policy. This is seen to be the job of central banks: t
 Their goals are to \textbf{counter demand shocks} and this is done through:
 \begin{itemize}
 	\item Monetary policy to affect \textbf{interest rates:} the cost of borrowing and reward for saving
-	\item Interests rates then affect Consumption and Investment
+	\item Interests rates then affect Consumption and Investment\\
 \end{itemize}
+\textbf{Interest Rates:}
+\begin{itemize}
+	\item Many forms of borrowing exist in the economy
+		\begin{itemize}
+			\item Firms and Households borrow from banks
+			\item Households borrow by using credit cards
+			\item Firms and governments borrow from the public by issuing bonds
+		\end{itemize}
+	\item Interest is the compensation received by the lender from the borrower
+	\item The interest rate is the \textbf{per-unit-value} compensation
+\end{itemize}
+Interest rates also tend to move together such that if the interest rate on one form of borrowing goes up, interest rates on other forms of borrowing tend to go up as well. Here are some examples:
+\begin{itemize}
+	\item Interest rate on government bonds go up
+	\item Demand for corporate bonds go down
+	\item Interest rates on corporate bonds go up
+\end{itemize}
+From above, if LSE is paying $x\%$ interest and the government is paying $(x+1)\%$ interest, borrowers have the option to arbitrage unless the lender sees this disparity.\\
+\textbf{What is a Central Bank?}
+The central bank is mainly two things:
+\begin{itemize}
+	\item The commercial banks' bank, existing as a regulatory institution
+		\begin{itemize}
+			\item Offers deposits to commercial banks (bank reserves) $\rightarrow$ like a current account for the bank itself
+			\item Lends to commercial banks (discount window, repos etc.) $\rightarrow$ loans from the central bank like overdraft, drawing from a credit line
+		\end{itemize}
+	\item Monopoly supplier of legal tender $\rightarrow$ preserving and regulating the value of money, having the technology to create legal tender that is unforgeable\\
+\end{itemize}
+\textbf{Policy Rates}
+The central bank has a crucial role in setting the policy rates:
+\begin{itemize}
+	\item Policy rates are interest rates set directly by the central bank
+		\begin{itemize}
+			\item Rates on bank reserves
+			\item Rates on loans to commercial banks
+		\end{itemize}
+	\item By changing policy rates, central banks can affect all other rates in the economy
+\end{itemize}
+An example of how this widespread effect works is done below:
+\begin{center}
+\noindent\fbox{\begin{minipage}{.8\textwidth}
+Take the bank's current policy rate to be $x\%$. In the case that the bank decides to reduce this interest rate to $(x-2)\%$, we will see that the interest rate on central bank loans goes down. Financing for commercial banks becomes cheaper as it is effectively cheaper to borrow since the interest payment required is less. This means that commercial banks require lower interest rates to lend to firms and households.
+\end{minipage}}
+\end{center}
+Having had a look at the policy rates, let's see the interactions policy rates have with components of GDP:
+\begin{itemize}
+	\item Interest rates and \textbf{I:}
+		\begin{itemize}
+			\item Cash-poor firms: cost of borrowing since high interest means higher costs of debt and low interest means cheaper cost of debt
+			\item Cash-rich firms: opportunity cost since high interest provides incentive to lend to make cash and low interest means an opportunity to invest elsewhere for higher returns, potentially their own company
+		\end{itemize}
+	\item Interest rates and \textbf{C:}
+		\begin{itemize}
+			\item Cash-poor individuals: cost of borrowing since high interest means higher costs of debt and low interest means cheaper cost of debt e.g. purchasing a house
+			\item Cash-rich individuals: uncertain of the borrowing aspect but potentially used to invest in different areas
+		\end{itemize}
+\end{itemize}
+\subsubsection{Economic Activity and Policy}
+\textbf{Natural Level of Economic Activity:} the level to which the economy gravitates back after a shock. Price adjustment makes sure that this happens. There is a center of gravity that economy tends to due to the refined outlook people have after a shock. Look at the below picture to understand the fluctuation and \textbf{natural level} the economy gravitates back to:
+\begin{center} % Remember to fix the control points for this picture or find a solution to create an oscilliation along a trendline
+	\begin{tikzpicture}
+		\coordinate (A) at (-3.5, 0);
+		\coordinate (B) at (-3.5, 4);
+		\coordinate (C) at (3.5, 0);
+		\draw (A) -- (B);
+		\draw (A) -- (C);
+		\coordinate (Start) at (-3.5, 1);
+		\coordinate (End) at (3.5, 3.5);
+		\draw (Start) -- (End);
+		% \draw (Start) .. controls (-2.5, 1.5) and (-1.5, .75) and (0, 2.5).. (End);
+	\end{tikzpicture}
+\end{center}
+\textbf{Counter-Cyclical Monetary Policy}\\
+Examples of this type of policy is shown below:
+% Go to the lecture to find out the significance of the counter-cyclical policy
+\begin{itemize}
+	\item Lower interest rates when contractionary aggregate demand shocks take the economy below the natural rate of economic activity
+	\item Increase interest rates when expansionary aggregate demand shocks take the economy above the natural rate
+\end{itemize}
+However, this policy is very difficult to implement. This is because it is very hard to tell whether the economy is \textbf{at, below or above the natural rate of activity.} Further to that, policy mistakes have a real risk:
+\begin{itemize}
+	\item Monetary (and fiscal) \textbf{expansions generate inflation when the economy is at or above the natural rate of output,} or when they push the economy above the natural rate
+	\item Monetary (and fiscal) \textbf{contractions cause recessions when the economy is at or below the natural rate of output,} or when they push the economy below the natural rate\\
+\end{itemize}
+\textbf{The Effective Lower Bound}\\
+To add further complexity to interest rates, we will discuss the effective lower bound.\\
+\textbf{Definition:} The point at which interest rates will stop having a tangible effect and the rate below which it is difficult to go.
 
+Before we go into explaining the complexities of it, here are some key terms to recognise:
+\begin{itemize}
+	\item \textbf{Negative Interest Rates:} incentive to borrow and hoard cash at a very negative point of interest
+	\item \textbf{Minimum Interest Rate (ELB):} cost of storing cash exceeds the gains from borrowing and hoarding cash
+\end{itemize}
+Hence, when interest rates are at the ELB, conventional monetary policy becomes unfeasible as people are not hoarding cash due to storage costs but are not willing to spend anything either. Until recently it was thought that the ELB was 0, also known as the Zero Lower Bound (ZLB) but empirical evidence has shown that Central Banks can go lower, a little into negative interest rates, to stimulate spending. Examples include:
+\begin{itemize}
+	\item Japan at $-1\%$
+	\item Sweden at $-.75\%$
+	\item ECB at $-.4\%$
+\end{itemize}
+There are ways of getting around the effective lower bound such as:
+\begin{itemize}
+	\item Abolishing paper currency and predominantly using debt cards etc. $\rightarrow$ lose on negative interest rates in deposit account, this would not work on cash as it is tangible, unable to borrow or store notes and coins which means no storage and hoarding of money
+	\item Abolishing large denominations $\rightarrow$ storage space required increased as a result of only small denominations existing which increases the cost of handling cash
+\end{itemize}
+Thus, the effective lower bound is % conclude from lecture notes and online notes
 
+\subsubsection{Unconventional Monetary Policy}
+This brings us to our discussion on unconventional monetary policy, sometimes labelled as \textbf{Quantitative Easing:} purchasing a large amount of long-dated bonds to inject money into the economy to stimulate it.
+
+To understand how this works, we will first need to understand the complexities of a bond:
+\begin{center}
+	\noindent\fbox{\begin{minipage}{.8\textwidth}
+		\textbf{Key facts about Bonds:} 
+		\begin{itemize}
+			\item They can be issued by the government or firms. 
+			\item Bonds issued by the government are usually labelled as \textbf{risk free bonds.} 
+			\item The bond purchaser pays, known as the \textbf{lender.} 
+			\item The issuer of the bond, such as the government or firm, is known as the \textbf{borrower,} and is committed to paying coupons of interest payments during the time to maturity.
+			\item The time to maturity is the time taken for the bond to be fully repaid and can vary wildly from months to up to 30 years i.e. the time taken to repay the initial lump-sum amount
+			\item At the time of maturity, the lender will be paid a certain amount of interest on top of the initial lump-sum that they would be given back at the beginning of the bond issue.
+	\end{itemize}
+	\end{minipage}}
+\end{center}
 
 
 \end{document}
