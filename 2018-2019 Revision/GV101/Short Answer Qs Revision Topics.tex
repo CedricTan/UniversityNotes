@@ -431,13 +431,17 @@ Below are examples of operationalising the theory.
 \coordinate [label=below:$C_L$] (C) at (0,0);
 \coordinate [label=below:$D_R$] (D) at (1,0);
 \coordinate [label=below:$E_R$] (E) at (3,0);
+\coordinate [label=above:$SQ$] (SQ) at (2, 1);
+\coordinate [label=above:$X$] (X) at (-2, 1);
+\draw [->] (SQ) -- (2, 0);
+\draw [->] (X) -- (B);
 \draw (Left) -- (Right);
 
 % Draw in status quo with chosen policy X
 
 \end{tikzpicture}
 \end{center}
-This is because $A$, $B$ and $C$ control the majority in the government and any agenda put through by the agenda setter, $B$, would be supported by the cohesive party. 
+This is because $A$, $B$ and $C$ control the majority in the government and any agenda put through by the agenda setter, $B$, would be supported by the cohesive party. This is even if the status quo is as far away as it is.
 \subsubsection{Consensus Government: Compromise but Possible Gridlock}
 \textbf{Assumptions:}
 \begin{itemize}
@@ -455,6 +459,11 @@ This is because $A$, $B$ and $C$ control the majority in the government and any 
 \coordinate [label=below:$C_C$] (C) at (0,0);
 \coordinate [label=below:$D_R$] (D) at (1,0);
 \coordinate [label=below:$E_R$] (E) at (3,0);
+\coordinate [label=above:$SQ$] (SQ) at (2, 1);
+\coordinate [label=above:$X$] (X) at (-2, 1);
+\draw [thick, <->] (-2, -.7) -- (2, -.7);
+\draw [->] (SQ) -- (2, 0);
+\draw [->] (X) -- (-2, 0);
 \draw (Left) -- (Right);
 
 % Draw in status quo with chosen policy X and winset from C equi-distant both sides to SQ
@@ -462,13 +471,80 @@ This is because $A$, $B$ and $C$ control the majority in the government and any 
 
 \end{tikzpicture}
 \end{center}
+Now with a veto player, there is a winset which is the set of policies that the veto player, $C$, prefers to the status quo. This is shown by the double-headed arrow interval between $SQ$ and $X$. If $B$ proposes anything in this interval, $C$ prefers it to $SQ$ and is likely to agree with B to support the coalition.\\
 
+However, if $SQ$ is in between $B$ and $C$, there is likely to be gridlock. This is because $B$ wants policy to move towards $B$ while $C$ wants policy to move towards $C$. We can show this \textbf{gridlock interval} in the illustration below:
+\begin{center}
+\begin{tikzpicture}
+\coordinate [label=left:$Left$] (Left) at (-5,0);
+\coordinate [label=right:$Right$] (Right) at (5,0);
+\coordinate [label=below:$A_L$] (A) at (-3.5,0);
+\coordinate [label=below:$B_L$] (B) at (-2,0);
+\coordinate [label=below:$C_C$] (C) at (0,0);
+\coordinate [label=below:$D_R$] (D) at (1,0);
+\coordinate [label=below:$E_R$] (E) at (3,0);
+\coordinate [label=above:$SQ$] (SQ) at (-1, 1);
+\coordinate [label=above:$X$] (X) at (-2, 1);
+\draw [thick, <->] (-2, -.7) -- (0, -.7);
+\draw [->] (SQ) -- (-1, 0);
+\draw [->] (X) -- (-2, 0);
+\draw (Left) -- (Right);
+
+% Draw in status quo with chosen policy X and winset from C equi-distant both sides to SQ
+
+
+\end{tikzpicture}
+\end{center}
+Simply, a proposal of a new policy $X$, by $B$ would be immediately vetoed but $C$ as it is further away from $C$ in the current status quo. The whole interval presents gridlock assuming that the parties are looking to get policy closest to their preference point.
+
+This gridlock interval changes with ideological distance within coalitions and even opposing parties. The USA, with their parties now so far apart, shows the massive gridlock that they have in their system. Due to this, the amount of policy that can be passed is minimal.
+\begin{center}
+Tsebelis states: If an exogenous shock occurs, a government with many veto players with big ideological distances among them cannot handle the situation and cannot agree on the necessary policies. (2002 p.185)
+\end{center}
 
 \subsection{Summary of Veto Players and Agenda Setters}
 
 \newpage
 \section{Office vs Policy Seeking Theories of Coalitions}
+\textbf{Definitions:}
+\begin{itemize}
+	\item \textbf{Office Seeking Theory (Riker 1962):} parties, when negotiating, will try to maximise the number of cabinet seats they can achieve, only \textit{minimum winning coalitions} should form as this minimises the amount of cabinet seats that have to be shared between coalition partners
+	\item \textbf{Policy Seeking Theory (Axelrod 1970):} parties will try to maximise their influence over policy outcomes, only \textit{connected coalitions} should form between parties that are next to each other on a policy scale, as this minimises the likely policy disagreements between parties
+\end{itemize}
+\textbf{Note that these two things are not mutually exclusive and it is entirely possible to find minimum-connected-winning coalitions!}
 
+\subsection{Office Seeking Theory}
+The idea of the office seeking theory is to maximise the seats in office that you will take. This means that you will attempt to form a coalition that minimises the amount of portfolios that you need to distribute outside your own party. This comes from \textbf{Gamson's Law:}
+\begin{center}
+	\textbf{Gamson's Law} states that cabinet portfolios will be distributed among government parties in strict proportion to the number of seats that each party contributes to the government's legislative seat total i.e. the amount of seats your party has should proportionally translate to the amount of portfolios.
+\end{center}
+Thus the desire to maximise seats leads to the formation of a \textbf{minimal winning coalition (MWC).} This is when there is \textbf{just enough parties and no more} required to control a legislative majority. A \textbf{least minimal winning coalition} is a MWC with the lowest number of surplus seats. For example, if we have:
+\begin{center}
+\begin{tabular}{|c | c|}
+
+\hline
+Party & \% Seats\\
+\hline
+Party 1 & 45\%\\
+\hline
+Party 2 & 7\%\\
+\hline
+Party 3 & 4\%\\
+\hline
+Party 4 & 2\%\\
+\hline
+Party 5 & 36\%\\
+\hline
+Party 6 & 6\%\\
+\hline
+
+\end{tabular}
+\end{center}
+
+In this, on the assumption that we need 51\% to control a majority, we can find a few coalitions such as Party 1 and Party 2 which gains 52\% of the seats, Party 2, 4, 5 and 6 which gives us 51\% and Party 1, 3 and 4 which also gives us 51\%. The coalitions which give us 51\% of the seat share are \textbf{least minimal winning coalitions.} The second assumption, after choosing the minimal winning coalition is that the parties would choose the least minimal so that the seat share is less distributed among the coalitions. Thus this is what we can conclude from a \textbf{purely office seeking world.}
+
+\subsection{Policy Seeking Theory}
+The idea of policy seeking theory is 
 
 \newpage
 \section{Principal-Agent theory of Independent Institutions}

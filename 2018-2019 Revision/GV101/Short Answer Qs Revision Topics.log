@@ -1,13 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.5.27)  23 APR 2019 01:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.8)  23 APR 2019 10:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **"Short Answer Qs Revision Topics.tex"
 (./Short Answer Qs Revision Topics.tex
-LaTeX2e <2018-04-01> patch level 4
-(c:/texlive/2018/texmf-dist/tex/latex/base/article.cls
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 22 language(s) loaded.
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(c:/texlive/2018/texmf-dist/tex/latex/base/size12.clo
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -22,21 +23,21 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(c:/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2018/04/16 v5.8 Page Geometry
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/03/24 v5.7 Page Geometry
 
-(c:/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(c:/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -52,56 +53,62 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
 )
-(c:/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(c:/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(c:/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(c:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(c:/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
 )
-(c:/texlive/2018/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(c:/texlive/2018/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(c:/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/utilities/pgfutil-comm
+on.tex
 \pgfutil@everybye=\toks16
 \pgfutil@tempdima=\dimen113
 \pgfutil@tempdimb=\dimen114
 
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)
-) (c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/utilities/pgfutil-comm
+on-lists.tex))
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/utilities/pgfutil-late
+x.def
 \pgfutil@abb=\box26
-
-(c:/texlive/2018/texmf-dist/tex/latex/ms/everyshi.sty
+ (/usr/local/texlive/2018basic/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.
+tex
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 
-(c:/texlive/2018/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(c:/texlive/2018/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.cod
+e.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code
+.tex
 \pgfkeys@pathtoks=\toks17
 \pgfkeys@temptoks=\toks18
 
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/utilities/pgfkeysfilte
+red.code.tex
 \pgfkeys@tmptoks=\toks19
 ))
 \pgf@x=\dimen115
@@ -121,28 +128,34 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 \t@pgf@toka=\toks20
 \t@pgf@tokb=\toks21
 \t@pgf@tokc=\toks22
- (c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdf
+tex.def
 File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-com
+mon-pdf.def
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoft
+path.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 \pgfsyssoftpath@smallbuffer@items=\count95
 \pgfsyssoftpath@bigbuffer@items=\count96
 )
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprot
+ocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-)) (c:/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+))
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(c:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -156,13 +169,17 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.cod
+e.tex
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.
+tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.
+tex)
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/math/pgfmathparser.cod
+e.tex
 \pgfmath@dimen=\dimen123
 \pgfmath@count=\count97
 \pgfmath@box=\box27
@@ -170,27 +187,30 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 \pgfmath@stack@operand=\toks24
 \pgfmath@stack@operation=\toks25
 )
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
-x)
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
-.code.tex)
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
-ex)
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
-de.tex)
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
-)
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
-x)
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
-)
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
-etics.code.tex)))
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+code.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+basic.code.tex)
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+trigonometric.code.tex)
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+random.code.tex)
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+comparison.code.tex)
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+base.code.tex)
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+round.code.tex)
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+misc.code.tex)
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+integerarithmetics.code.tex)))
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code
+.tex
 \c@pgfmathroundto@lastzeros=\count98
 ))
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoin
+ts.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen124
 \pgf@picmaxx=\dimen125
@@ -207,108 +227,123 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@zx=\dimen136
 \pgf@zy=\dimen137
 )
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
-e.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepath
+construct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen138
 \pgf@path@lasty=\dimen139
 )
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
-x
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepath
+usage.code.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen140
 \pgf@shorten@start@additional=\dimen141
 )
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescop
+es.code.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box28
 \pgf@hbox=\box29
 \pgf@layerbox@main=\box30
 \pgf@picture@serial@count=\count99
 )
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
-.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregrap
+hicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen142
 )
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
-ode.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretran
+sformations.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen143
 \pgf@pt@y=\dimen144
 \pgf@pt@temp=\dimen145
 )
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequic
+k.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobje
+cts.code.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
-de.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepath
+processing.code.tex
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearro
+ws.code.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen146
 )
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshad
+e.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen147
 \pgf@sys@shading@range@num=\count100
 )
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimag
+e.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexte
+rnal.code.tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box31
 ))
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelaye
+rs.code.tex
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
-.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretran
+sparency.code.tex
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatt
+erns.code.tex
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/modules/pgfmoduleshape
+s.code.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box32
 )
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.
+code.tex
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-(c:/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
-y
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-ve
+rsion-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen148
 \pgf@nodesepend=\dimen149
 )
-(c:/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
-y
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-ve
+rsion-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-)) (c:/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(c:/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
-(c:/texlive/2018/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+))
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code
+.tex)) (/usr/local/texlive/2018basic/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+)
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/utilities/pgffor.code.
+tex
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen150
 \pgffor@skip=\dimen151
 \pgffor@stack=\toks26
 \pgffor@toks=\toks27
 ))
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tik
+z.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
-de.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/libraries/pgflibrarypl
+othandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \pgf@plot@mark@count=\count101
 \pgfplotmarksize=\dimen152
@@ -328,7 +363,8 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikznumberofcurrentchild=\count104
 \tikz@fig@count=\count105
 
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/modules/pgfmodulematri
+x.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \pgfmatrixcurrentrow=\count106
 \pgfmatrixcurrentcolumn=\count107
@@ -336,8 +372,8 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 )
 \tikz@expandcount=\count109
 
-(c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-brarytopaths.code.tex
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/pgf/frontendlayer/tikz/lib
+raries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 ))) (./Short Answer Qs Revision Topics.aux)
 \openout1 = `"Short Answer Qs Revision Topics.aux"'.
@@ -389,7 +425,7 @@ LaTeX Font Info:    ... okay on input line 15.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2018basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count110
 \scratchdimen=\dimen159
@@ -402,31 +438,30 @@ LaTeX Font Info:    ... okay on input line 15.
 \MPnumerator=\count114
 \makeMPintoPDFobject=\count115
 \everyMPtoPDFconversion=\toks29
-) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/local/texlive/2018basic/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -435,7 +470,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -450,19 +485,18 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
-(c:/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
-))
-ABD: EveryShipout initializing macros
+)) ABD: EveryShipout initializing macros
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 16.
  [1
 
-{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Short Answer
- Qs Revision Topics.toc
+{/usr/local/texlive/2018basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (.
+/Short Answer Qs Revision Topics.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -475,13 +509,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [2]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 38.
-
-(c:/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+ (/usr/local/texlive/2018basic/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
- [3]
+
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
@@ -506,31 +540,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 399--402
 
  []
 
-[12] [13] [14] [15] (./Short Answer Qs Revision Topics.aux) ) 
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 474--475
+
+ []
+
+[13] [14] [15] [16] (./Short Answer Qs Revision Topics.aux) ) 
 Here is how much of TeX's memory you used:
- 12014 strings out of 492649
- 241560 string characters out of 6133384
- 287207 words of memory out of 5000000
- 15679 multiletter control sequences out of 15000+600000
+ 12025 strings out of 494091
+ 244351 string characters out of 6163524
+ 285339 words of memory out of 5000000
+ 15482 multiletter control sequences out of 15000+600000
  10417 words of font info for 36 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
+ 319 hyphenation exceptions out of 8191
  55i,6n,54p,809b,669s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2018/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2018/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:
-/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2
-018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf
--dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2018/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmu10.pfb>
-Output written on "Short Answer Qs Revision Topics.pdf" (15 pages, 179006 bytes
+</usr/local/texliv
+e/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
+xlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/loca
+l/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></us
+r/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.p
+fb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr17.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmti10.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmu10.pfb>
+Output written on "Short Answer Qs Revision Topics.pdf" (16 pages, 185776 bytes
 ).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 71 compressed objects within 1 object stream
+ 103 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
