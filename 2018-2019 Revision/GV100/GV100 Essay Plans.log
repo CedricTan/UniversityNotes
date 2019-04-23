@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.5.27)  23 APR 2019 20:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.5.27)  23 APR 2019 21:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"EC102 Macro.tex"
-(./EC102 Macro.tex
+**"GV100 Essay Plans.tex"
+(./GV100 Essay Plans.tex
 LaTeX2e <2018-04-01> patch level 4
 (c:/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -407,21 +407,21 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
-))) (./EC102 Macro.aux)
-\openout1 = `"EC102 Macro.aux"'.
+))) (./GV100 Essay Plans.aux)
+\openout1 = `"GV100 Essay Plans.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -523,220 +523,50 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for U+msa on input line 18.
+LaTeX Font Info:    Try loading font information for U+msa on input line 17.
 
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 18.
+LaTeX Font Info:    Try loading font information for U+msb on input line 17.
 
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./EC102 Macro.
-toc [2])
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./GV100 Essay 
+Plans.toc)
 \tf@toc=\write4
-\openout4 = `"EC102 Macro.toc"'.
+\openout4 = `"GV100 Essay Plans.toc"'.
 
- [3]
+ [2]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 33.
 
 (c:/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 33.
- [4]
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--95
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--98
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
-
- []
-
-[5] [6] [7]
-<figures_EC102/britain_gdp_1.png, id=38, 712.6625pt x 424.58624pt>
-File: figures_EC102/britain_gdp_1.png Graphic file (type png)
-<use figures_EC102/britain_gdp_1.png>
-Package pdftex.def Info: figures_EC102/britain_gdp_1.png  used on input line 20
-6.
-(pdftex.def)             Requested size: 147.97118pt x 88.15506pt.
-<figures_EC102/britain_gdp_2.png, id=40, 680.5425pt x 424.58624pt>
-File: figures_EC102/britain_gdp_2.png Graphic file (type png)
-<use figures_EC102/britain_gdp_2.png>
-Package pdftex.def Info: figures_EC102/britain_gdp_2.png  used on input line 21
-2.
-(pdftex.def)             Requested size: 147.97118pt x 92.31436pt.
-<figures_EC102/gdp_productivity_1.png, id=41, 688.5725pt x 424.58624pt>
-File: figures_EC102/gdp_productivity_1.png Graphic file (type png)
-<use figures_EC102/gdp_productivity_1.png>
-Package pdftex.def Info: figures_EC102/gdp_productivity_1.png  used on input li
-ne 221.
-(pdftex.def)             Requested size: 147.97118pt x 91.2389pt.
-<figures_EC102/britain_gdp_3.png, id=42, 700.6175pt x 415.5525pt>
-File: figures_EC102/britain_gdp_3.png Graphic file (type png)
-<use figures_EC102/britain_gdp_3.png>
-Package pdftex.def Info: figures_EC102/britain_gdp_3.png  used on input line 22
-7.
-(pdftex.def)             Requested size: 147.97118pt x 87.76318pt.
- [8 <./figures_EC102/britain_gdp_1.png> <./figures_EC102/britain_gdp_2.png> <./
-figures_EC102/gdp_productivity_1.png> <./figures_EC102/britain_gdp_3.png>] [9] 
-[10] [11] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 414--415
-
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
-
- []
-
-[14] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 510--511
-
- []
-
-[16] [17] [18] [19]
-Underfull \hbox (badness 10000) in paragraph at lines 676--677
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 678--680
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 707--710
-
- []
-
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 744--745
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 749--750
-
- []
-
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 774--776
-
- []
-
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 799--800
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 827--828
-
- []
-
-[23] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 883--884
-
- []
-
-[25] [26] [27]
-Underfull \hbox (badness 10000) in paragraph at lines 996--997
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 996--997
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1012--1013
-
- []
-
-[28] [29]
-Underfull \hbox (badness 10000) in paragraph at lines 1081--1082
-
- []
-
-[30]
-Underfull \hbox (badness 10000) in paragraph at lines 1110--1110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1110--1110
-
- []
-
-[31]
-Underfull \hbox (badness 10000) in paragraph at lines 1122--1125
-
- []
-
-[32]
-Underfull \hbox (badness 10000) in paragraph at lines 1195--1201
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1195--1201
-
- []
-
-[33] [34] [35] [36]
-Underfull \hbox (badness 10000) in paragraph at lines 1326--1329
-
- []
-
-[37] (./EC102 Macro.aux) ) 
+ [3] [4] [5] [6] [7]
+[8] (./GV100 Essay Plans.aux) ) 
 Here is how much of TeX's memory you used:
- 12874 strings out of 492649
- 251438 string characters out of 6133384
- 300278 words of memory out of 5000000
- 16498 multiletter control sequences out of 15000+600000
- 15259 words of font info for 58 fonts, out of 8000000 for 9000
+ 12670 strings out of 492649
+ 247581 string characters out of 6133384
+ 291232 words of memory out of 5000000
+ 16310 multiletter control sequences out of 15000+600000
+ 8921 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,54p,890b,626s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
-x12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
-><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texl
-ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2018/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
-c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texliv
-e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2018/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmu10.pfb><c:/texlive/2018/texmf-dist/fonts/type1
-/public/amsfonts/symbols/msam10.pfb>
-Output written on "EC102 Macro.pdf" (37 pages, 647557 bytes).
+ 55i,6n,54p,400b,191s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2018/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
+fb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2018/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "GV100 Essay Plans.pdf" (8 pages, 76665 bytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
- 137 compressed objects within 2 object streams
+ 58 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

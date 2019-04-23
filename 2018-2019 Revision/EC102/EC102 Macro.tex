@@ -1222,14 +1222,114 @@ Find related materials here. Some may be repeated from other appendices.
 
 \newpage
 \section{Unemployment}
-We begin with some key concepts in unemployment:
+The concept of unemployment is central to living standards. This is associated not just with income but psychological and social well-being as it provides a sense of security and purpose. We begin with some key concepts in unemployment:
 \begin{itemize}
 	\item \textbf{Employed:} working at a paid job
 	\item \textbf{Unemployed:} not working but actively looking for a job
 	\item \textbf{Labour Force:} all employed and unemployed perople, these are those who are already active or willing to work
 	\item \textbf{Rate of Unemployment:} the percentage of the labour force that is unemployed
 \end{itemize}
-Observations from 
+Observations show that:
+\begin{itemize}
+	\item The unemployment rate is \textbf{counter-cyclical} $\rightarrow$ it rises when there is a recession and falls when there is a boom
+	\item The long-run average varies a lot from country to country
+\end{itemize}
+We also have the concepts of \textbf{Cyclical} and \textbf{Natural} unemployment:
+\begin{itemize}
+	\item Natural Rate of Unemployment (NRU): the normal unemployment rate the economy experiences when it is neither in a recession nor a boom
+	\item Cyclical Component: the difference between the actual and the natural rate $\rightarrow$ the cyclical rate fluctuates away from the NRU due to shocks which are deviations from the norm
+\end{itemize}
+Therefore, that takes us to our analysis of unemployment. Our previous discussion of economic fluctuations helped us understand the cyclical component. This section will focus on what determines the NRU and ask why it varies across countries.
 
+\subsection{A Basic Model of the NRU}
+Through Chris Pissarides, a Nobel Prize Winner, we can model the natural rate.
+\begin{center}
+	Lets begin with the components of the model:
+	\begin{itemize}
+		\item $L$ = Number of workers in labour force (fixed)
+		\item $E$ = Number of employed workers
+		\item $U$ = Number of unemployed workers
+	\end{itemize}
+	\textbf{Unemployment rate:} $\frac{U}{L}$
+\end{center}
+
+\subsubsection{Labour Market Flows: Separations}
+This flow shows employment to unemployment. Reasons causing this could be as follows:
+\begin{itemize}
+	\item Dismissals, redundancies or firm closures $\rightarrow$ firm side
+	\item Quits $\rightarrow$ worker side
+\end{itemize}
+For separations, we have the rate of job separation:
+\begin{center}
+	$s = rate\;of\;job\;separation$\\
+	This is the fraction of employed workers that become separated from their jobs in a given period e.g. $s = 1\%$ per month
+\end{center}
+\textbf{This is FLOW 1.}
+
+\subsubsection{Labour Market Flows: Matches}
+This flow shows unemployment to employment. Conceptually:
+\begin{itemize}
+	\item Search for workers as firms $\rightarrow$ matches from the firm side
+	\item Search for firms as workers $\rightarrow$ matches from the worker side
+	\item \textbf{This whole process takes time and effort}
+\end{itemize}
+\begin{center}
+	$f = rate\;of\;job\;finding$\\
+	This is the fraction of unemployed workers that find jobs in a given period e.g, $f = 20\%$ per month
+\end{center}
+\textbf{This is FLOW 2.}
+
+\subsubsection{Transitions between Employment and Unemployment}
+From above, we can put \textbf{FLOW 1} and \textbf{FLOW 2} into a simple visual model.
+\begin{center}
+	\begin{tikzpicture}
+		% Coordinate -3 and Coordinate +3
+		\path (-3,0) node[rectangle, draw](E){Employed}
+		(3,3) node[rectangle, draw](U) {Unemployed};
+		\draw [->](U) .. controls +(down:2cm) and +(right:2cm) .. node[below, sloped] {$f\times U \rightarrow$ Flow 2} (E);
+		\draw [->](E) .. controls +(up:2cm) and +(left:2cm) .. node[above, sloped] {$s\times E \rightarrow$ Flow 1}(U);
+		
+	\end{tikzpicture}
+\end{center}
+So we can move onto computing the natural rate. From deduction:
+\begin{itemize}
+	\item During booms flows out of unemployment exceed flows inwards\\
+	$f\times U > s\times E$ thus unemployment is below the NRU
+	\item During recessions flows into unemployment exceed flows outwards\\
+	$f\times U < s\times E$ thus unemployment is above the NRU
+	\item At the natural rate, flows in roughly equal flows out\\
+	$f\times U = s\times E$ thus unemployment is at the NRU
+\end{itemize}
+From there we can begin to solve for the natural rate:
+\begin{center}
+	$s\times E = f\times U$\\
+	Knowing that $E = L-U$\\
+	$s\times (L-U) = f\times U$ where L is a constant\\
+	Rearranging to get $s\times L = (s+f) \times U$\\
+	Hence: $\frac{U}{L} = \frac{s}{s+f} = NRU$\\
+	We can see from this that if $s$ is high and $f$ is low, we would have a higher NRU.
+\end{center}
+From that, we can draw an example:
+\begin{center}
+	\noindent\fbox{\begin{minipage}{.8\textwidth}
+	Each month:
+	\begin{itemize}
+		\item $1\%$ of employed workers lose their jobs $\rightarrow s=0.01$
+		\item $19\%$ of unemployed workers find jobs $\rightarrow f=0.19$
+	\end{itemize}
+	From that, we can use our formula $\frac{U}{L}=\frac{0.01}{0.01+0.19}$\\
+	Hence, $NRU = 0.05$ or $5\%$
+	\end{minipage}}
+\end{center}
+
+\subsection{Labour Market Policies and Institutions}
+Some separations and delays in job finding are inevitable and so is unemployment. However, policies and institutions can improve the effectiveness of job search, the incentives to both separations and searchingm and the willingness of firms to open vacancies. here are some examples:\\\\
+\textbf{Active Labour Market Policies}\\
+Government programs to help workers search (increase $f$)
+\begin{itemize}
+	\item Government employment agencies: disseminate information about job openings to better match workers and jobs; help with CVs and interviewing skills etc.
+	\item Public job training programs: help workers displaced from declining industries get skills need for jobs in growing industries e.g. technology now
+	\item Conditional unemployment benefits: incentivise worker search by making unemployment insurance dependent on job search efforts
+\end{itemize}
 
 \end{document}
