@@ -23,6 +23,9 @@
 \contentsline {section}{\numberline {6}Tsbelis' Theory of Veto Players and Agenda Setters}{12}
 \contentsline {subsection}{\numberline {6.1}Tsebelis Overview}{12}
 \contentsline {subsection}{\numberline {6.2}Individual Veto Players}{12}
-\contentsline {subsection}{\numberline {6.3}Summary of Veto Players and Agenda Setters}{13}
+\contentsline {subsection}{\numberline {6.3}Operationalising the Theory}{13}
+\contentsline {subsubsection}{\numberline {6.3.1}Majoritarian Goverment: Dictatorship of the Majority Party}{13}
+\contentsline {subsubsection}{\numberline {6.3.2}Consensus Government: Compromise but Possible Gridlock}{13}
+\contentsline {subsection}{\numberline {6.4}Summary of Veto Players and Agenda Setters}{13}
 \contentsline {section}{\numberline {7}Office vs Policy Seeking Theories of Coalitions}{14}
 \contentsline {section}{\numberline {8}Principal-Agent theory of Independent Institutions}{15}

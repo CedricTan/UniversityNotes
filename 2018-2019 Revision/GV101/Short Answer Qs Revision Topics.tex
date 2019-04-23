@@ -375,7 +375,7 @@ Policy outcomes are the result of two factors:
 \end{itemize}
 More importantly, understanding where the status quo is can affect the stability of policy.
 
-Tsebelis believes that all political institutions are translated into a series of veto-players. The number and location of veto players affects policy stability, or \textbf{how difficult it is to change the status quo.}
+Tsebelis believes that all political institutions are translated into a series of veto-players and agenda-setters. The number and location of veto players affects policy stability, or \textbf{how difficult it is to change the status quo.}
 
 Further, the sequence in which veto players make their decisions affects the influence that these veto players have in the decisionmaking process. If you're an individual veto-player or in a collective group of veto-players, your decisionmaking process will also differ.
 
@@ -403,14 +403,65 @@ Two more concepts are identified by Tsebelis:
 	\item \textbf{Winset of the Status Quo:} the set of policies that would beat the status quo in a pair-wise contest under whatever voting rules are being employed i.e. replace existing policy
 	\item \textbf{Core:} the set of points with empty winset i.e. the points that cannot be defeated by any other point if we apply the decisionmaking rule. For example, the \textit{unanimity core} refers to the set of points that cannot be defeated if the decision is unanimous.
 \end{itemize}
-Thus, depending on these concepts and their relative significance or size, policy stability is affected. Policy stability is the difficult of effecting significant change in the status quo. If the winset is small, policy is more stable as there is less room to change. If the winset is large, policy tends to be more flexible as the area of indifference between the veto players are larger.
+Thus, depending on these concepts and their relative significance or size, policy stability is affected. Policy stability is the difficult of effecting significant change in the status quo. If the winset is small, policy is more stable as there is less room to change. If the winset is large, policy tends to be more flexible as the area of indifference between the veto players are larger:
+\begin{itemize}
+	\item If the winset of the status quo exists, its size decreases or remains the same with the addition of new veto players.
+	\item If there is a unanimity core, its size increases or remains the same with the addition of new veto players.
 
-If the winset of the status quo exists, its size decreases or remains the same with the addition of new veto players.
+\end{itemize}
 
-If there is a unanimity core, its size increases or remains the same with the addition of new veto players.
+\textbf{Hence, the addition of a new veto player increases policy stability or leaves it the same.} Through Tsebelis' theory, we can see how much consesus and how many constraints we have and need on an agenda setter.
 
-\textbf{Hence, the addition of a new veto player increases policy stability or leaves it the same.}
+\subsection{Operationalising the Theory}
+Below are examples of operationalising the theory.
+\subsubsection{Majoritarian Goverment: Dictatorship of the Majority Party}
+\textbf{Assumptions:}
+\begin{itemize}
+	\item $A$, $B$ and $C$ are in the Left Party and $D$ and $E$ are in the Right Party
+	\item $B$ is the leader of the Left Party $\rightarrow$ \textbf{$B$ is the agenda setter}
+	\item Following these, if there is party cohesion, B is the dictator
+\end{itemize}
 
+\begin{center}
+\begin{tikzpicture}
+\coordinate [label=left:$Left$] (Left) at (-5,0);
+\coordinate [label=right:$Right$] (Right) at (5,0);
+\coordinate [label=below:$A_L$] (A) at (-3.5,0);
+\coordinate [label=below:$B_L$] (B) at (-2,0);
+\coordinate [label=below:$C_L$] (C) at (0,0);
+\coordinate [label=below:$D_R$] (D) at (1,0);
+\coordinate [label=below:$E_R$] (E) at (3,0);
+\draw (Left) -- (Right);
+
+% Draw in status quo with chosen policy X
+
+\end{tikzpicture}
+\end{center}
+This is because $A$, $B$ and $C$ control the majority in the government and any agenda put through by the agenda setter, $B$, would be supported by the cohesive party. 
+\subsubsection{Consensus Government: Compromise but Possible Gridlock}
+\textbf{Assumptions:}
+\begin{itemize}
+	\item $A$ and $B$ are in the Left Party, $C$ is in the Center Party while $D$ and $E$ are in the Right Party
+	\item The Left Party and Center Party are in coalition
+	\item $B$ is the Prime Minister $\rightarrow$ \textbf{$B$ is the agenda setter}
+	\item B has to make a compromise proposal because \textbf{C is a veto player}
+\end{itemize}
+\begin{center}
+\begin{tikzpicture}
+\coordinate [label=left:$Left$] (Left) at (-5,0);
+\coordinate [label=right:$Right$] (Right) at (5,0);
+\coordinate [label=below:$A_L$] (A) at (-3.5,0);
+\coordinate [label=below:$B_L$] (B) at (-2,0);
+\coordinate [label=below:$C_C$] (C) at (0,0);
+\coordinate [label=below:$D_R$] (D) at (1,0);
+\coordinate [label=below:$E_R$] (E) at (3,0);
+\draw (Left) -- (Right);
+
+% Draw in status quo with chosen policy X and winset from C equi-distant both sides to SQ
+
+
+\end{tikzpicture}
+\end{center}
 
 
 \subsection{Summary of Veto Players and Agenda Setters}
