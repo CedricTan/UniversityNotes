@@ -30,4 +30,10 @@
 \contentsline {section}{\numberline {7}Office vs Policy Seeking Theories of Coalitions}{15}
 \contentsline {subsection}{\numberline {7.1}Office Seeking Theory}{15}
 \contentsline {subsection}{\numberline {7.2}Policy Seeking Theory}{15}
-\contentsline {section}{\numberline {8}Principal-Agent theory of Independent Institutions}{16}
+\contentsline {subsection}{\numberline {7.3}Summary of Office vs Policy Seeking Coalitions}{16}
+\contentsline {section}{\numberline {8}Principal-Agent Theory of Independent Institutions}{17}
+\contentsline {subsection}{\numberline {8.1}Principal Agent (PA) Theory Insights}{17}
+\contentsline {subsection}{\numberline {8.2}Why Delegate?}{17}
+\contentsline {subsection}{\numberline {8.3}Policy Drift}{18}
+\contentsline {subsection}{\numberline {8.4}Controlling Policy Drift}{18}
+\contentsline {subsection}{\numberline {8.5}Summary of the PA Theory}{18}

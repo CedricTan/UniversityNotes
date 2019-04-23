@@ -2,6 +2,7 @@
 \usepackage[margin=.5in]{geometry}
 \usepackage{graphicx}
 \usepackage{tikz}
+\usepackage{adjustbox}
 
 \title{
 	GV101 Intro to PolSci\\
@@ -520,34 +521,155 @@ The idea of the office seeking theory is to maximise the seats in office that yo
 \end{center}
 Thus the desire to maximise seats leads to the formation of a \textbf{minimal winning coalition (MWC).} This is when there is \textbf{just enough parties and no more} required to control a legislative majority. A \textbf{least minimal winning coalition} is a MWC with the lowest number of surplus seats. For example, if we have:
 \begin{center}
-\begin{tabular}{|c | c|}
+\begin{tabular}{|c|c|c|}
 
 \hline
-Party & \% Seats\\
+Party & \% Seats & Party Position\\
 \hline
-Party 1 & 45\%\\
+Party 1 & 45\% & Far Right\\
 \hline
-Party 2 & 7\%\\
+Party 2 & 7\% & Far Left\\
 \hline
-Party 3 & 4\%\\
+Party 3 & 4\% & Center\\
 \hline
-Party 4 & 2\%\\
+Party 4 & 2\% & Center Left\\
 \hline
-Party 5 & 36\%\\
+Party 5 & 36\% & Center Right\\
 \hline
-Party 6 & 6\%\\
+Party 6 & 6\% & Moderate Right\\
 \hline
 
 \end{tabular}
 \end{center}
 
-In this, on the assumption that we need 51\% to control a majority, we can find a few coalitions such as Party 1 and Party 2 which gains 52\% of the seats, Party 2, 4, 5 and 6 which gives us 51\% and Party 1, 3 and 4 which also gives us 51\%. The coalitions which give us 51\% of the seat share are \textbf{least minimal winning coalitions.} The second assumption, after choosing the minimal winning coalition is that the parties would choose the least minimal so that the seat share is less distributed among the coalitions. Thus this is what we can conclude from a \textbf{purely office seeking world.}
+In this, on the assumption that we need 51\% to control a majority, we can find a few coalitions such as Party 1 and Party 2 which gains 52\% of the seats, Party 2, 4, 5 and 6 which gives us 51\% and Party 1, 3 and 4 which also gives us 51\%. The coalitions which give us 51\% of the seat share are \textbf{least minimal winning coalitions.} The second assumption, after choosing the minimal winning coalition is that the parties would choose the least minimal so that the seat share is less distributed among the coalitions. Thus this is what we can conclude from a \textbf{purely office seeking world.} In this world, party position does not matter, as shown above.
 
 \subsection{Policy Seeking Theory}
-The idea of policy seeking theory is 
+The idea of policy seeking theory is to create coalitions based on policy concessions. This is because parties seeking to be in power are aiming to implement their own policies that they are advocating for. They no longer simply seek office. Hence, when making concessions on policy, the positions of parties matter greatly. This means that you want to form governments with parties close to you in policy space. 
+
+Political scientists often refer to this type of coalition as a \textbf{connected coalition} where members of the coalition are next to one another in the policy space. If we take a political spectrum as illustrated below:
+\begin{center}
+\begin{tikzpicture}
+\coordinate [label=left:$Left$] (Left) at (-5,0);
+\coordinate [label=right:$Right$] (Right) at (5,0);
+\coordinate [label=below:$A_L$] (A) at (-3.5,0);
+\coordinate [label=below:$B_L$] (B) at (-2,0);
+\coordinate [label=below:$C_C$] (C) at (0,0);
+\coordinate [label=below:$D_R$] (D) at (1,0);
+\coordinate [label=below:$E_R$] (E) at (3,0);
+\draw (Left) -- (Right);
+
+% Draw in status quo with chosen policy X and winset from C equi-distant both sides to SQ
+
+\end{tikzpicture}
+\end{center}
+
+We can see that Parties such as $A$ and $B$, if they control the majority of the vote, can form a connected coalition. However, if parties $A$ and $E$ were to form a coalition, this would not be connected since they are on opposite sides of the spectrum.
+
+A second implication of the purely polic--seeking logic is that you will choose the connected least minimal winning coalition. This is to reduce the amount of policy concessions that you'd have to have to be in power. This means that we take our logic from the office seeking theory and combine it with policy seeking incentives to arrive at \textbf{the connected least minimal winning coalition.}
+
+\subsection{Summary of Office vs Policy Seeking Coalitions}
 
 \newpage
-\section{Principal-Agent theory of Independent Institutions}
+\section{Principal-Agent Theory of Independent Institutions}
+\textbf{Definitions:}
+\begin{itemize}
+	\item \textbf{Principal:} the delegator, usually the politicians who outsource certain tasks to institutions
+	\item \textbf{Agent:} the delegatee, usually the institution who acts on behalf of the politicians
+	\item \textbf{Moral Hazard:} occurs when the agent has the opportunity to take agents that are hidden from the principal
+	\item \textbf{Adverse Selection:} occurs when the agent has attributes that are hidden from the principal
+	\item \textbf{Ex Ante Mechanism:} helps principals learn about their agents before these agents are chosen e.g. education and experience filtering
+	\item \textbf{Ex Post Mechanism:} helps principals learn about agents actions after they have occurred. This is usually performance and how well they have conformed to the principal's ideas
+	\begin{itemize}
+		\item In a \textbf{Fire Alarm} system, the principal relies on iformation from others to learn about their agent.
+		\item In a \textbf{Police Patrol} system, the principal monitors their agents actions
+	\end{itemize}	 
+\end{itemize}
+This theory was first used in the study of US Government from a political science perspective where we saw legislature vs the executive. However, it is now used increasingly everywhere through analysis of parliamentary government, EU politics, international organisations etc.
 
+\subsection{Principal Agent (PA) Theory Insights}
+The main insights of this theory are as follows:
+\begin{itemize}
+	\item Explains why principals delegate to independent agents
+	\item Explains why agents do not do as they are told i.e. \textbf{policy drift}
+	\item Explains how policy drift can be reduced
+\end{itemize}
+These will be explained in the following subsections.
+\subsection{Why Delegate?}
+Here are some reasons why:
+\begin{itemize}
+	\item To \textbf{protect particular policies from short-term change} by a particular political majority
+	\item To \textbf{establish a credible commitment} to a particular policy
+	\item To \textbf{reduce workload} and enhance efficiency in decision-making
+	\item To increase \textbf{the use of experts in policy making}
+	\item To avoid taking blame for unpopular policies i.e. \textbf{blame shifting}
+	\item To produce \textbf{stable and predictable policies}
+\end{itemize}
+In terms of Courts and Central Banks, here are some reasons to delegate:
+\begin{center}
+\begin{tabular}{c|c}
+Courts & Central Banks\\
+\hline
+Protect Human Rights & Time inconsistent preferences\\
+Complete legislative contracts & End political business cycle\\
+Control other agencies & Lock-in stable macro-economic environment\\
+\hline
+\end{tabular}
+\end{center}
+Hence, delegation to these institutions ensure more stability in policy over time across the board whilst also providing credibility to their agreements
+
+\subsection{Policy Drift}
+Yet, despite all the delegation, policy drift, which is the difference between what the principal desires and what the agent actually does, can still occur. This is even with our mechanisms of selection. Here are reasons why:\\\\
+\textbf{The Cause:} the agent does not have the same \textit{policy preferences} as the principal.\\\\
+\textbf{Causes of Differences in Preferences:}
+\begin{itemize}
+	\item Appointment procedure $\rightarrow$ biased preferences of the agent such as judges appointing judges
+	\item Specialised knowledge of agents that principals do not have
+	\item Instituional/bugetary interests of agency that might not be aligned with the principals ideas
+	\item Capture of agent by private interests $\rightarrow$ lobbying, for example, by big banks for the central bank to be \textbf{hawkish} or \textbf{dovish} in certain periods of the economic cycle
+\end{itemize}
+In terms of Courts and Central banks, here are some reasons for policy drift:
+\begin{center}
+\begin{adjustbox}{width=.85\textwidth}
+\begin{tabular}{c|c}
+Courts & Central Banks\\
+\hline
+Judges tend to be old, rich, white men & Central bankers are naturally hawks $\rightarrow$ against inflation \\
+Liberal legal training $\rightarrow$ protect individuals vs the state & Epistemic community of neoclassical economists\\
+Asymmetric access to courts $\rightarrow$ they favour the rich and powerful & Closer connection to financial institutions\\
+\hline
+\end{tabular}
+\end{adjustbox}
+\end{center}
+
+\subsection{Controlling Policy Drift}
+Here are a few methods of controlling policy drift:
+\begin{itemize}
+	\item Appoint new agents
+	\item Restrict bugdet of an agency
+	\item Write detailed legislation \textbf{to limit discretion of agents}
+	\item Parliamentary scrutiny of agency actions
+	\item Delegate to courts to constrain agency e.g. \textbf{competition authority}
+	\item New laws e.g. \textbf{revise agency mandate}
+\end{itemize}
+In the context of Courts and Central banks:
+\begin{center}
+\begin{adjustbox}{width=.85\textwidth}
+\begin{tabular}{c|c}
+
+Courts & Central Banks\\
+\hline
+Politicised Supereme Courts & Partisan Appointment of Governors\\
+Partisan Appointment of Judges & Appointment of non-economists to boards\\
+Creation of Special Courts & Separation of mandate $\rightarrow$ politicians set inflation target, banks the interest\\
+\hline
+
+\end{tabular}
+\end{adjustbox}
+\end{center}
+
+
+
+\subsection{Summary of the PA Theory}
 
 \end{document}

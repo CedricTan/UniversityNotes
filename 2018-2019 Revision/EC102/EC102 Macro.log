@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.5.27)  22 APR 2019 22:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.5.27)  23 APR 2019 16:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -576,136 +576,166 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--106
 <figures_EC102/britain_gdp_1.png, id=38, 712.6625pt x 424.58624pt>
 File: figures_EC102/britain_gdp_1.png Graphic file (type png)
 <use figures_EC102/britain_gdp_1.png>
-Package pdftex.def Info: figures_EC102/britain_gdp_1.png  used on input line 21
-1.
+Package pdftex.def Info: figures_EC102/britain_gdp_1.png  used on input line 20
+6.
 (pdftex.def)             Requested size: 147.97118pt x 88.15506pt.
 <figures_EC102/britain_gdp_2.png, id=40, 680.5425pt x 424.58624pt>
 File: figures_EC102/britain_gdp_2.png Graphic file (type png)
 <use figures_EC102/britain_gdp_2.png>
 Package pdftex.def Info: figures_EC102/britain_gdp_2.png  used on input line 21
-7.
+2.
 (pdftex.def)             Requested size: 147.97118pt x 92.31436pt.
 <figures_EC102/gdp_productivity_1.png, id=41, 688.5725pt x 424.58624pt>
 File: figures_EC102/gdp_productivity_1.png Graphic file (type png)
 <use figures_EC102/gdp_productivity_1.png>
 Package pdftex.def Info: figures_EC102/gdp_productivity_1.png  used on input li
-ne 226.
+ne 221.
 (pdftex.def)             Requested size: 147.97118pt x 91.2389pt.
 <figures_EC102/britain_gdp_3.png, id=42, 700.6175pt x 415.5525pt>
 File: figures_EC102/britain_gdp_3.png Graphic file (type png)
 <use figures_EC102/britain_gdp_3.png>
-Package pdftex.def Info: figures_EC102/britain_gdp_3.png  used on input line 23
-2.
+Package pdftex.def Info: figures_EC102/britain_gdp_3.png  used on input line 22
+7.
 (pdftex.def)             Requested size: 147.97118pt x 87.76318pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[8 <./figures_EC102/britain_gdp_1.png> <./figures_EC102/britain_gdp_2.png>]
-[9 <./figures_EC102/gdp_productivity_1.png> <./figures_EC102/britain_gdp_3.png>
-] [10] [11] [12] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 419--420
+ [8 <./figures_EC102/britain_gdp_1.png> <./figures_EC102/britain_gdp_2.png> <./
+figures_EC102/gdp_productivity_1.png> <./figures_EC102/britain_gdp_3.png>] [9] 
+[10] [11] [12]
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 429--430
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
 
  []
 
 [14] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 515--516
+Underfull \hbox (badness 10000) in paragraph at lines 510--511
 
  []
 
 [16] [17] [18] [19]
-Underfull \hbox (badness 10000) in paragraph at lines 681--682
+Underfull \hbox (badness 10000) in paragraph at lines 676--677
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 683--685
+Underfull \hbox (badness 10000) in paragraph at lines 678--680
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 712--715
+Underfull \hbox (badness 10000) in paragraph at lines 707--710
 
  []
 
 [20]
+Underfull \hbox (badness 10000) in paragraph at lines 744--745
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 749--750
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 754--755
-
- []
-
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 779--781
+Underfull \hbox (badness 10000) in paragraph at lines 774--776
 
  []
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 804--805
+Underfull \hbox (badness 10000) in paragraph at lines 799--800
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 832--833
+Underfull \hbox (badness 10000) in paragraph at lines 827--828
 
  []
 
 [23] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 888--889
+Underfull \hbox (badness 10000) in paragraph at lines 883--884
 
  []
 
 [25] [26] [27]
-Underfull \hbox (badness 10000) in paragraph at lines 1001--1002
+Underfull \hbox (badness 10000) in paragraph at lines 996--997
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1001--1002
+Underfull \hbox (badness 10000) in paragraph at lines 996--997
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1017--1018
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1013
 
  []
 
-[28] [29] [30] (./EC102 Macro.aux) ) 
+[28] [29]
+Underfull \hbox (badness 10000) in paragraph at lines 1081--1082
+
+ []
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 1110--1110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1110--1110
+
+ []
+
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 1122--1125
+
+ []
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 1195--1201
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1195--1201
+
+ []
+
+[33] [34] [35] (./EC102 Macro.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
  12857 strings out of 492649
  251217 string characters out of 6133384
- 299278 words of memory out of 5000000
+ 300278 words of memory out of 5000000
  16481 multiletter control sequences out of 15000+600000
  15259 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,54p,519b,591s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2018/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmbx12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-bxti10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
-b><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texl
-ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texliv
-e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2018/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmu10.pfb><c:/texlive/2018/texmf-dist/f
-onts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "EC102 Macro.pdf" (30 pages, 627138 bytes).
+ 55i,8n,54p,890b,591s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2018/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:
+/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/20
+18/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2018/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmti10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmu10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols
+/msam10.pfb>
+Output written on "EC102 Macro.pdf" (35 pages, 640129 bytes).
 PDF statistics:
- 177 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
+ 193 PDF objects out of 1000 (max. 8388607)
+ 130 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
