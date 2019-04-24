@@ -1,8 +1,18 @@
-\contentsline {section}{\numberline {1}Plato}{3}
-\contentsline {subsection}{\numberline {1.1}Plato and Justice}{3}
-\contentsline {subsection}{\numberline {1.2}Study Questions and Plans}{3}
-\contentsline {section}{\numberline {2}Aristotle}{4}
-\contentsline {section}{\numberline {3}Machiavelli}{5}
-\contentsline {section}{\numberline {4}Thomas Hobbes}{6}
-\contentsline {section}{\numberline {5}John Stuart Mill}{7}
-\contentsline {section}{\numberline {6}Kwame Nkrumah}{8}
+\contentsline {section}{\numberline {1}Plato}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Part 1: Plato and Justice}{3}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}Plato and Thrasymachus}{3}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}Characteristics of Justice}{3}{subsubsection.1.1.2}
+\contentsline {subsubsection}{\numberline {1.1.3}Conventional and Platonic Justice}{3}{subsubsection.1.1.3}
+\contentsline {subsection}{\numberline {1.2}Part 1: Study Questions and Plans}{4}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Thrasymachus}{4}{subsubsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2}Soul and City, an analogy}{6}{subsubsection.1.2.2}
+\contentsline {subsubsection}{\numberline {1.2.3}Arguments to Remember}{8}{subsubsection.1.2.3}
+\contentsline {subsubsection}{\numberline {1.2.4}Appendix}{8}{subsubsection.1.2.4}
+\contentsline {subsection}{\numberline {1.3}Part 2: Preservation of Justice}{9}{subsection.1.3}
+\contentsline {subsubsection}{\numberline {1.3.1}Craft Analogy}{9}{subsubsection.1.3.1}
+\contentsline {subsubsection}{\numberline {1.3.2}Censorship}{9}{subsubsection.1.3.2}
+\contentsline {section}{\numberline {2}Aristotle}{11}{section.2}
+\contentsline {section}{\numberline {3}Machiavelli}{12}{section.3}
+\contentsline {section}{\numberline {4}Thomas Hobbes}{13}{section.4}
+\contentsline {section}{\numberline {5}John Stuart Mill}{14}{section.5}
+\contentsline {section}{\numberline {6}Kwame Nkrumah}{15}{section.6}
