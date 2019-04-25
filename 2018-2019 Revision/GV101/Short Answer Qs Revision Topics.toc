@@ -6,34 +6,27 @@
 \contentsline {subsection}{\numberline {2.1}Types of Selectorate and Winning Coalition}{4}
 \contentsline {subsection}{\numberline {2.2}Loyalty Norm}{4}
 \contentsline {subsection}{\numberline {2.3}Size of the Winning Coalition}{5}
-\contentsline {subsection}{\numberline {2.4}Summary of Selectorate Theory}{5}
 \contentsline {section}{\numberline {3}Differences between Strategic and Expressive Voting}{6}
 \contentsline {subsection}{\numberline {3.1}Expressive}{6}
 \contentsline {subsection}{\numberline {3.2}Strategic}{6}
 \contentsline {subsection}{\numberline {3.3}Why vote strategically?}{6}
-\contentsline {subsection}{\numberline {3.4}Summary of Expressive and Strategic Voting}{7}
 \contentsline {section}{\numberline {4}Down's Theory of Party Competition}{8}
 \contentsline {subsection}{\numberline {4.1}Assumption of the Downsian Model}{8}
 \contentsline {subsection}{\numberline {4.2}The Downsian Model}{8}
 \contentsline {subsection}{\numberline {4.3}Reasons Why Parties Might Not Converge}{9}
-\contentsline {subsection}{\numberline {4.4}Summary of Downs Party Theory}{9}
 \contentsline {section}{\numberline {5}Olson's Theory of Collective Action}{10}
 \contentsline {subsection}{\numberline {5.1}The Logic of Collective Action}{10}
-\contentsline {subsection}{\numberline {5.2}Summary of Olson's Theory of Collective Action}{11}
 \contentsline {section}{\numberline {6}Tsbelis' Theory of Veto Players and Agenda Setters}{12}
 \contentsline {subsection}{\numberline {6.1}Tsebelis Overview}{12}
 \contentsline {subsection}{\numberline {6.2}Individual Veto Players}{12}
 \contentsline {subsection}{\numberline {6.3}Operationalising the Theory}{13}
 \contentsline {subsubsection}{\numberline {6.3.1}Majoritarian Goverment: Dictatorship of the Majority Party}{13}
 \contentsline {subsubsection}{\numberline {6.3.2}Consensus Government: Compromise but Possible Gridlock}{13}
-\contentsline {subsection}{\numberline {6.4}Summary of Veto Players and Agenda Setters}{14}
 \contentsline {section}{\numberline {7}Office vs Policy Seeking Theories of Coalitions}{15}
 \contentsline {subsection}{\numberline {7.1}Office Seeking Theory}{15}
 \contentsline {subsection}{\numberline {7.2}Policy Seeking Theory}{15}
-\contentsline {subsection}{\numberline {7.3}Summary of Office vs Policy Seeking Coalitions}{16}
 \contentsline {section}{\numberline {8}Principal-Agent Theory of Independent Institutions}{17}
 \contentsline {subsection}{\numberline {8.1}Principal Agent (PA) Theory Insights}{17}
 \contentsline {subsection}{\numberline {8.2}Why Delegate?}{17}
 \contentsline {subsection}{\numberline {8.3}Policy Drift}{18}
 \contentsline {subsection}{\numberline {8.4}Controlling Policy Drift}{18}
-\contentsline {subsection}{\numberline {8.5}Summary of the PA Theory}{18}
