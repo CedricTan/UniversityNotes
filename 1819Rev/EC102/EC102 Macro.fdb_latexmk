@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1556287474 "EC102 Macro.tex" "EC102 Macro.pdf" "EC102 Macro" 1556287475
+["pdflatex"] 1556288013 "EC102 Macro.tex" "EC102 Macro.pdf" "EC102 Macro" 1556288014
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1550406775 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1550406775 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1550406775 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -143,15 +143,15 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1550406775 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1556276861 3233842 1a92d1d21a91d82fa70913e968179e54 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1556276855 7919196 b7f6c27b0805c24f9c237a3ef07adec6 ""
-  "EC102 Macro.aux" 1556287475 11520 61a40815dbb1a4eee23db0c6b9bb2158 ""
-  "EC102 Macro.tex" 1556287474 90874 e3c1bde3cca4e90952b1d1b5c29c9542 ""
-  "EC102 Macro.toc" 1556287475 7202 447a8b9afff5916083f563973f83b3ec ""
+  "EC102 Macro.aux" 1556288014 11520 61a40815dbb1a4eee23db0c6b9bb2158 ""
+  "EC102 Macro.tex" 1556287493 90873 243fef447ac775ba4c452b779f300213 ""
+  "EC102 Macro.toc" 1556288014 7202 447a8b9afff5916083f563973f83b3ec ""
   "figures_EC102/britain_gdp_1.png" 1556276365 137627 e87be209ea9eedab6f73b1da8282ebbf ""
   "figures_EC102/britain_gdp_2.png" 1556276365 125421 a9b47a94ca5db23a02df140bd64b563c ""
   "figures_EC102/britain_gdp_3.png" 1556276365 199689 fd7ff64451cca558933df42232f262fa ""
   "figures_EC102/gdp_productivity_1.png" 1556276365 134815 424fc0746651d3c582d7e1c5f3b37fc9 ""
   (generated)
   "EC102 Macro.aux"
-  "EC102 Macro.toc"
   "EC102 Macro.log"
+  "EC102 Macro.toc"
   "EC102 Macro.pdf"
