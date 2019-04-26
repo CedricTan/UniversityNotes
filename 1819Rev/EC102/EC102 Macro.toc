@@ -1,89 +1,91 @@
-\contentsline {section}{\numberline {1}Introduction to Macro}{4}
-\contentsline {section}{\numberline {2}Economic Growth}{5}
-\contentsline {subsection}{\numberline {2.1}Preliminary Questions on Growth}{5}
-\contentsline {subsection}{\numberline {2.2}Measuring Growth}{5}
-\contentsline {subsubsection}{\numberline {2.2.1}Measuring Growth: GDP per Capita}{5}
-\contentsline {subsubsection}{\numberline {2.2.2}Measuring Growth: Median Income}{6}
-\contentsline {subsubsection}{\numberline {2.2.3}Measuring Growth: Multi-dimensional}{6}
-\contentsline {subsubsection}{\numberline {2.2.4}Measuring Growth: Depletion}{6}
-\contentsline {subsubsection}{\numberline {2.2.5}Focus on Growth}{6}
-\contentsline {subsection}{\numberline {2.3}Sustainability and Desirability of Growth}{6}
-\contentsline {subsubsection}{\numberline {2.3.1}Problem 1: Running out of resources}{7}
-\contentsline {subsubsection}{\numberline {2.3.2}Problem 2: Environmental Degradation}{7}
-\contentsline {subsubsection}{\numberline {2.3.3}Is growth even a good thing?}{7}
-\contentsline {subsection}{\numberline {2.4}Economic Growth: Appendix}{8}
-\contentsline {subsubsection}{\numberline {2.4.1}Formulae and Definitions}{8}
-\contentsline {subsubsection}{\numberline {2.4.2}Figures}{8}
-\contentsline {section}{\numberline {3}Growth Engines}{9}
-\contentsline {subsection}{\numberline {3.1}Capital Accumulation}{9}
-\contentsline {subsubsection}{\numberline {3.1.1}Definitions}{9}
-\contentsline {subsubsection}{\numberline {3.1.2}Accumulation and Growth}{9}
-\contentsline {subsubsection}{\numberline {3.1.3}Nature of Investment}{9}
-\contentsline {subsubsection}{\numberline {3.1.4}Investment in an Open Economy}{10}
-\contentsline {subsection}{\numberline {3.2}Technological Change}{10}
-\contentsline {subsubsection}{\numberline {3.2.1}Definitions}{10}
-\contentsline {subsubsection}{\numberline {3.2.2}Economics of R\&D}{10}
-\contentsline {subsubsection}{\numberline {3.2.3}Policy Solutions to the R\&D Problem}{11}
-\contentsline {subsubsection}{\numberline {3.2.4}Economics of Basic Research}{11}
-\contentsline {subsubsection}{\numberline {3.2.5}Technological Change in Poorer Countries}{11}
-\contentsline {subsubsection}{\numberline {3.2.6}Sources of International Technology Diffusion}{11}
-\contentsline {subsubsection}{\numberline {3.2.7}International Tech Diffusion and IPRs}{12}
-\contentsline {subsubsection}{\numberline {3.2.8}Embodied Technology}{12}
-\contentsline {subsection}{\numberline {3.3}Management Quality}{12}
-\contentsline {subsubsection}{\numberline {3.3.1}Definitions}{13}
-\contentsline {subsubsection}{\numberline {3.3.2}The Indian Manufacturing Case Study}{13}
-\contentsline {subsubsection}{\numberline {3.3.3}Managerial Quality}{13}
-\contentsline {subsection}{\numberline {3.4}Human Capital Accumulation}{14}
-\contentsline {subsubsection}{\numberline {3.4.1}Definitions}{14}
-\contentsline {subsection}{\numberline {3.5}Engine Interaction}{15}
-\contentsline {subsubsection}{\numberline {3.5.1}Limits to Growth from Capital Accumulation}{15}
-\contentsline {subsubsection}{\numberline {3.5.2}Engine Complementarity}{16}
-\contentsline {subsubsection}{\numberline {3.5.3}The Role of the State in Growth}{16}
-\contentsline {subsubsection}{\numberline {3.5.4}Corruption and Growth}{16}
-\contentsline {subsection}{\numberline {3.6}Growth Engines: Appendix}{17}
-\contentsline {subsubsection}{\numberline {3.6.1}Formulae and Definitions}{17}
-\contentsline {section}{\numberline {4}Economic Fluctuations}{18}
-\contentsline {subsection}{\numberline {4.1}Demand Shocks}{18}
-\contentsline {subsubsection}{\numberline {4.1.1}GDP Composition}{18}
-\contentsline {subsubsection}{\numberline {4.1.2}Aggregate Demand}{18}
-\contentsline {subsubsection}{\numberline {4.1.3}Narrative of the Aggregate Demand Shock}{19}
-\contentsline {subsection}{\numberline {4.2}Counter-cyclical Policy}{21}
-\contentsline {subsubsection}{\numberline {4.2.1}Fiscal Policy}{21}
-\contentsline {subsubsection}{\numberline {4.2.2}Monetary Policy}{23}
-\contentsline {subsubsection}{\numberline {4.2.3}Economic Activity and Policy}{24}
-\contentsline {subsubsection}{\numberline {4.2.4}Unconventional Monetary Policy}{25}
-\contentsline {subsection}{\numberline {4.3}Supply Shocks}{28}
-\contentsline {subsubsection}{\numberline {4.3.1}Examples of Supply Shocks}{28}
-\contentsline {subsubsection}{\numberline {4.3.2}Supply Shocks and Prices}{28}
-\contentsline {subsubsection}{\numberline {4.3.3}The Relative (UN)Importance of Supply Shocks}{29}
-\contentsline {subsection}{\numberline {4.4}Economic Fluctuations: Appendix}{29}
-\contentsline {subsubsection}{\numberline {4.4.1}Formulae and Definitions}{29}
-\contentsline {section}{\numberline {5}Inflation and Deflation}{30}
-\contentsline {subsection}{\numberline {5.1}Inflation}{30}
-\contentsline {subsubsection}{\numberline {5.1.1}Absolute versus Relative Prices}{30}
-\contentsline {subsubsection}{\numberline {5.1.2}Inflation and Relative Prices}{30}
-\contentsline {subsubsection}{\numberline {5.1.3}Inflation and Uncertainity}{31}
-\contentsline {subsubsection}{\numberline {5.1.4}Benefits of Moderate Inflation}{32}
-\contentsline {subsubsection}{\numberline {5.1.5}Bringing Inflation Down}{32}
-\contentsline {subsubsection}{\numberline {5.1.6}Inflation Targets}{32}
-\contentsline {subsection}{\numberline {5.2}Hyperinflation}{32}
-\contentsline {subsubsection}{\numberline {5.2.1}What Causes Hyperinflation?}{33}
-\contentsline {subsubsection}{\numberline {5.2.2}Ending Hyperinflation}{33}
-\contentsline {subsection}{\numberline {5.3}Deflation}{34}
-\contentsline {subsubsection}{\numberline {5.3.1}Fighting Deflation}{34}
-\contentsline {subsection}{\numberline {5.4}Inflation and Deflation: Appendix}{34}
-\contentsline {section}{\numberline {6}Unemployment}{35}
-\contentsline {subsection}{\numberline {6.1}A Basic Model of the NRU}{35}
-\contentsline {subsubsection}{\numberline {6.1.1}Labour Market Flows: Separations}{35}
-\contentsline {subsubsection}{\numberline {6.1.2}Labour Market Flows: Matches}{36}
-\contentsline {subsubsection}{\numberline {6.1.3}Transitions between Employment and Unemployment}{36}
-\contentsline {subsection}{\numberline {6.2}Labour Market Policies and Institutions}{37}
-\contentsline {subsubsection}{\numberline {6.2.1}Active Labour Market Policies}{37}
-\contentsline {subsubsection}{\numberline {6.2.2}Unemployment Insurance (UI)}{37}
-\contentsline {subsubsection}{\numberline {6.2.3}Employment Protection Legislation (EPL)}{38}
-\contentsline {subsubsection}{\numberline {6.2.4}Wage Setting Process}{39}
-\contentsline {subsection}{\numberline {6.3}Dual Labour Markets}{39}
-\contentsline {subsection}{\numberline {6.4}Payroll Taxes}{40}
-\contentsline {subsection}{\numberline {6.5}Unemployment: Appendix}{40}
-\contentsline {subsubsection}{\numberline {6.5.1}Formulae and Definitions}{40}
-\contentsline {section}{\numberline {7}The Financial System and Macro}{41}
+\contentsline {section}{\numberline {1}Introduction to Macro}{5}% 
+\contentsline {section}{\numberline {2}Economic Growth}{6}% 
+\contentsline {subsection}{\numberline {2.1}Preliminary Questions on Growth}{6}% 
+\contentsline {subsection}{\numberline {2.2}Measuring Growth}{6}% 
+\contentsline {subsubsection}{\numberline {2.2.1}Measuring Growth: GDP per Capita}{6}% 
+\contentsline {subsubsection}{\numberline {2.2.2}Measuring Growth: Median Income}{7}% 
+\contentsline {subsubsection}{\numberline {2.2.3}Measuring Growth: Multi-dimensional}{7}% 
+\contentsline {subsubsection}{\numberline {2.2.4}Measuring Growth: Depletion}{7}% 
+\contentsline {subsubsection}{\numberline {2.2.5}Focus on Growth}{7}% 
+\contentsline {subsection}{\numberline {2.3}Sustainability and Desirability of Growth}{7}% 
+\contentsline {subsubsection}{\numberline {2.3.1}Problem 1: Running out of resources}{8}% 
+\contentsline {subsubsection}{\numberline {2.3.2}Problem 2: Environmental Degradation}{8}% 
+\contentsline {subsubsection}{\numberline {2.3.3}Is growth even a good thing?}{8}% 
+\contentsline {subsection}{\numberline {2.4}Economic Growth: Appendix}{9}% 
+\contentsline {subsubsection}{\numberline {2.4.1}Formulae and Definitions}{9}% 
+\contentsline {subsubsection}{\numberline {2.4.2}Figures}{9}% 
+\contentsline {section}{\numberline {3}Growth Engines}{10}% 
+\contentsline {subsection}{\numberline {3.1}Capital Accumulation}{10}% 
+\contentsline {subsubsection}{\numberline {3.1.1}Definitions}{10}% 
+\contentsline {subsubsection}{\numberline {3.1.2}Accumulation and Growth}{10}% 
+\contentsline {subsubsection}{\numberline {3.1.3}Nature of Investment}{10}% 
+\contentsline {subsubsection}{\numberline {3.1.4}Investment in an Open Economy}{11}% 
+\contentsline {subsection}{\numberline {3.2}Technological Change}{11}% 
+\contentsline {subsubsection}{\numberline {3.2.1}Definitions}{11}% 
+\contentsline {subsubsection}{\numberline {3.2.2}Economics of R\&D}{11}% 
+\contentsline {subsubsection}{\numberline {3.2.3}Policy Solutions to the R\&D Problem}{12}% 
+\contentsline {subsubsection}{\numberline {3.2.4}Economics of Basic Research}{12}% 
+\contentsline {subsubsection}{\numberline {3.2.5}Technological Change in Poorer Countries}{12}% 
+\contentsline {subsubsection}{\numberline {3.2.6}Sources of International Technology Diffusion}{12}% 
+\contentsline {subsubsection}{\numberline {3.2.7}International Tech Diffusion and IPRs}{13}% 
+\contentsline {subsubsection}{\numberline {3.2.8}Embodied Technology}{13}% 
+\contentsline {subsection}{\numberline {3.3}Management Quality}{13}% 
+\contentsline {subsubsection}{\numberline {3.3.1}Definitions}{14}% 
+\contentsline {subsubsection}{\numberline {3.3.2}The Indian Manufacturing Case Study}{14}% 
+\contentsline {subsubsection}{\numberline {3.3.3}Managerial Quality}{14}% 
+\contentsline {subsection}{\numberline {3.4}Human Capital Accumulation}{15}% 
+\contentsline {subsubsection}{\numberline {3.4.1}Definitions}{15}% 
+\contentsline {subsection}{\numberline {3.5}Engine Interaction}{16}% 
+\contentsline {subsubsection}{\numberline {3.5.1}Limits to Growth from Capital Accumulation}{16}% 
+\contentsline {subsubsection}{\numberline {3.5.2}Engine Complementarity}{17}% 
+\contentsline {subsubsection}{\numberline {3.5.3}The Role of the State in Growth}{17}% 
+\contentsline {subsubsection}{\numberline {3.5.4}Corruption and Growth}{17}% 
+\contentsline {subsection}{\numberline {3.6}Growth Engines: Appendix}{18}% 
+\contentsline {subsubsection}{\numberline {3.6.1}Formulae and Definitions}{18}% 
+\contentsline {section}{\numberline {4}Economic Fluctuations}{19}% 
+\contentsline {subsection}{\numberline {4.1}Demand Shocks}{19}% 
+\contentsline {subsubsection}{\numberline {4.1.1}GDP Composition}{19}% 
+\contentsline {subsubsection}{\numberline {4.1.2}Aggregate Demand}{19}% 
+\contentsline {subsubsection}{\numberline {4.1.3}Narrative of the Aggregate Demand Shock}{20}% 
+\contentsline {subsection}{\numberline {4.2}Counter-cyclical Policy}{22}% 
+\contentsline {subsubsection}{\numberline {4.2.1}Fiscal Policy}{22}% 
+\contentsline {subsubsection}{\numberline {4.2.2}Monetary Policy}{24}% 
+\contentsline {subsubsection}{\numberline {4.2.3}Economic Activity and Policy}{25}% 
+\contentsline {subsubsection}{\numberline {4.2.4}Unconventional Monetary Policy}{26}% 
+\contentsline {subsection}{\numberline {4.3}Supply Shocks}{29}% 
+\contentsline {subsubsection}{\numberline {4.3.1}Examples of Supply Shocks}{29}% 
+\contentsline {subsubsection}{\numberline {4.3.2}Supply Shocks and Prices}{29}% 
+\contentsline {subsubsection}{\numberline {4.3.3}The Relative (UN)Importance of Supply Shocks}{30}% 
+\contentsline {subsection}{\numberline {4.4}Economic Fluctuations: Appendix}{30}% 
+\contentsline {subsubsection}{\numberline {4.4.1}Formulae and Definitions}{30}% 
+\contentsline {section}{\numberline {5}Inflation and Deflation}{31}% 
+\contentsline {subsection}{\numberline {5.1}Inflation}{31}% 
+\contentsline {subsubsection}{\numberline {5.1.1}Absolute versus Relative Prices}{31}% 
+\contentsline {subsubsection}{\numberline {5.1.2}Inflation and Relative Prices}{31}% 
+\contentsline {subsubsection}{\numberline {5.1.3}Inflation and Uncertainity}{32}% 
+\contentsline {subsubsection}{\numberline {5.1.4}Benefits of Moderate Inflation}{33}% 
+\contentsline {subsubsection}{\numberline {5.1.5}Bringing Inflation Down}{33}% 
+\contentsline {subsubsection}{\numberline {5.1.6}Inflation Targets}{33}% 
+\contentsline {subsection}{\numberline {5.2}Hyperinflation}{33}% 
+\contentsline {subsubsection}{\numberline {5.2.1}What Causes Hyperinflation?}{34}% 
+\contentsline {subsubsection}{\numberline {5.2.2}Ending Hyperinflation}{34}% 
+\contentsline {subsection}{\numberline {5.3}Deflation}{35}% 
+\contentsline {subsubsection}{\numberline {5.3.1}Fighting Deflation}{35}% 
+\contentsline {subsection}{\numberline {5.4}Inflation and Deflation: Appendix}{35}% 
+\contentsline {section}{\numberline {6}Unemployment}{36}% 
+\contentsline {subsection}{\numberline {6.1}A Basic Model of the NRU}{36}% 
+\contentsline {subsubsection}{\numberline {6.1.1}Labour Market Flows: Separations}{36}% 
+\contentsline {subsubsection}{\numberline {6.1.2}Labour Market Flows: Matches}{37}% 
+\contentsline {subsubsection}{\numberline {6.1.3}Transitions between Employment and Unemployment}{37}% 
+\contentsline {subsection}{\numberline {6.2}Labour Market Policies and Institutions}{38}% 
+\contentsline {subsubsection}{\numberline {6.2.1}Active Labour Market Policies}{38}% 
+\contentsline {subsubsection}{\numberline {6.2.2}Unemployment Insurance (UI)}{38}% 
+\contentsline {subsubsection}{\numberline {6.2.3}Employment Protection Legislation (EPL)}{39}% 
+\contentsline {subsubsection}{\numberline {6.2.4}Wage Setting Process}{40}% 
+\contentsline {subsection}{\numberline {6.3}Dual Labour Markets}{40}% 
+\contentsline {subsection}{\numberline {6.4}Payroll Taxes}{41}% 
+\contentsline {subsection}{\numberline {6.5}Unemployment: Appendix}{41}% 
+\contentsline {subsubsection}{\numberline {6.5.1}Formulae and Definitions}{41}% 
+\contentsline {section}{\numberline {7}The Financial System and Macro}{42}% 
+\contentsline {subsection}{\numberline {7.1}Components of the Financial System}{42}% 
+\contentsline {subsection}{\numberline {7.2}Balance Sheets}{43}% 
