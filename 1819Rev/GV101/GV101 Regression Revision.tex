@@ -1,0 +1,133 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+
+\title{
+	{GV101 Intro to Polsci}\\
+	{\large{Professor Simon Hix}}\\
+	{\large{Regression Revision Document}}
+}
+\author{Cedric Tan}
+\date{May 2019}
+
+\begin{document}
+\maketitle
+\abstract{
+
+This is a review of regression tables and how to interpret them from Simon Hix's lectures in the academic year of 2018-2019. The notes are mine fully and may not be authentic to the lecturer's as they have been modified.
+
+The format of this material is taken from lectures where necessary and classes with Dr Anastasia Ershova.
+}
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{Overview of Regression}
+Regressions can be run for several purposes including:
+\begin{enumerate}
+	\item To give a \textbf{descriptive summary} og how the outcome varies with the explanatory variables
+	\item To \textbf{predict the outcome} given a set of values for the explanatory variables
+	\item To \textbf{estimate the parameters of a model} describing a process that generates the outcome
+	\item To \textbf{study causal relationships} that could be explained by the model
+\end{enumerate}
+
+\subsection{Descriptive Summary}
+Through regressions such as Ordinary Least Squares (OLS), we achieve the best-fitting linear relationship, where best is defined as minimizing the sum of squares of the residuals i.e. difference between predicted and real values.
+
+OLS estimates the best-fitting line in the population. However, the summary provided by OLS may miss important features of the data, such as outliers or non-linear relationships.
+
+\subsection{Prediction}
+OLS regression gives the best linear predictor in the sample. If the sample is drawn randomly from a larger population, OLS is a consistent estimator of the population's best linear predictor.
+
+\subsection{Estimation and Causality}
+Estimating the parameters of a model is the purpose that receives the most discussion in traditional textbooks. However, causality is the real motivation for regression. This is causal inference.
+
+\section{Basic Terms for Regression}
+Below are some basic terms for regression that one should memorise to use at all times:
+\begin{itemize}
+	\item \textbf{Direction:} this is the way the effect is going, either positive or negative which corresponds to an increase or decrease
+	\item \textbf{Neutral Language:} ensure to use this language if you are not confident in the units that are associated with the change and the direction of the change. For example: \textit{there is a unit increase in Y due to X}
+	\item \textbf{Controls:} these are effects that have influence on other variables which can ultimately affect the magnitude and direction of the dependent variables
+	\item \textbf{$R^2$:} this is a measurement of how much variance is explained by the dependent variables in the model
+	\item \textbf{Variance:} helps understand the differences in the level of dependent variables that occur depending on other variables
+	\item \textbf{Confidence:} this explains how much faith you have in the fact that something occurred by chance or is truly explained by the model constructed
+	\item \textbf{Omission:} this is when a model has missed out crucial variables which might make insights biased one way or another
+\end{itemize}
+
+\section{Language use for Regressions}
+When explaining certain parts of a regression table, there needs to be a critical understanding of the language used to answer how the table works. Below are these critical phrases to keep in mind:
+\begin{itemize}
+	\item When testing for a single variable: remember that the answer given in the regression output is while \textbf{holding all other variables constant.}
+	\item When comparing models, recognise that \textbf{bias might be present due to omission} which is a key factor when seeing the difference in the amount of variables present in one model over another
+	\item Underspecification which means it suffers from omitted variable bias
+	\item Absorption means taking in the effect of another variable which is highly correlated. When adding one variable, the other may become insignificant as a result of this absorption
+\end{itemize}
+
+\newpage
+\section{Full Examples}
+
+\begin{center}
+	\noindent\fbox{\begin{minipage}{.8\textwidth}
+	\begin{center}
+	\textbf{Example 1:}\\
+		\begin{tabular}{ccc}
+		\hline
+		Variables & Model 1 & Model 2 \\
+		\hline
+		Authoritarianism & & 0.46 \\
+		& & (0.23)** \\
+		Crisis & 0.87* & 0.88 \\
+		& (0.51) & (0.54) \\
+		Inflation & & -0.50** \\
+		& & (0.02) \\
+		GDP Per Capita & -0.001** & -0.001*** \\
+		& (0.00) & (0.00) \\
+		Constant & 9.12 & 9.10 \\
+		R Squared & 0.12 & 0.20\\
+		\hline
+		*p$>$0.90; **p$>$0.95; ***p$>$0.99
+		\end{tabular}
+	\end{center}
+	\textbf{Dependent Variable:} Level of Unemployment\\
+	\textbf{Independent Variable:} Authoritarian Govt. (1 = Authoritarian)\\
+	\textbf{Controls:}
+	\begin{itemize}
+		\item Crisis (1 = year of crisis starting)
+		\item Inflation (\%)
+		\item GDP per Capita (USD)
+	\end{itemize}
+	\end{minipage}}
+\end{center}
+\begin{enumerate}
+	\item What is the effect of GDP on the level of unemployment in Model 1?
+	\item How does the effect of Crisis changes from Model 1 to Model 2? Why?
+	\item What does the change in R squared indicate?
+	\item How do the changes in the models affect our understanding of the results?
+\end{enumerate}
+\textbf{Question 1:}\\
+An increase in GDP by one US Dollar would lead to a 0.001 unit decrease, i.e. have a negative effect, in unemployment holding all other control variables constant. This result is statistically significant to the 95th percentile.\\\\
+\textbf{Question 2:}\\
+Crisis has a positive effect on the level of unemployment with a magnitude of positive 0.87 units per unit of crisis increasing. It is statistically significant to the 90th percentile. However, in model 2, the crisis effect becomes not statistically significant at all despite it increasing in magnitude by 0.01. This may be due to the omitted variable bias where the effect of inflation may have absorbed the effect of crisis due to their high correlation with inflation being a more influential factor to unemployment.\\\\
+\textbf{Question 3:}\\
+R squared measures the amount of variance which is captured by the dependent variables in the model. The change in R squared shows that the second model, which captures 0.08 units more, accounts for more of the variance associated with unemployment. \\\\
+\textbf{Question 4:}\\
+hello
+\\\\
+\begin{center}
+
+\noindent\fbox{\begin{minipage}{.8\textwidth}
+	\begin{center}
+	\textbf{Example 2:}
+
+
+	\end{center}
+\end{minipage}}
+
+
+\end{center}
+
+\end{document}
