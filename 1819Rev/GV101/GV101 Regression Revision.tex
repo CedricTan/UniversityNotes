@@ -70,6 +70,7 @@ When explaining certain parts of a regression table, there needs to be a critica
 \newpage
 \section{Full Examples}
 
+\subsection{Example 1: Unemployment and Authoritarianism}
 \begin{center}
 	\noindent\fbox{\begin{minipage}{.8\textwidth}
 	\begin{center}
@@ -117,17 +118,92 @@ R squared measures the amount of variance which is captured by the dependent var
 \textbf{Question 4:}\\
 The addition of authoritarianism
 \\\\
+\newpage
+\subsection{Example 2: Political Activity and Factors}
 \begin{center}
 
 \noindent\fbox{\begin{minipage}{.8\textwidth}
 	\begin{center}
-	\textbf{Example 2:}
-
-
+	\textbf{Example 2:}\\	
+		\begin{tabular}{ccc}
+		\hline
+		Variables & Model 1 & Model 2 \\
+		\hline
+		Constant & -1.14 & -0.93 \\
+			 & (0.21) & (0.24) \\
+		Education & 0.37** & 0.24** \\
+		& (0.02) & (0.03) \\
+		Job Level & 0.07** & 0.00 \\
+			  & (0.02) & (0.02) \\
+		Family Income & & 0.07** \\
+		& & (0.01) \\
+		Job Skills & & 0.12** \\
+			   & & (0.03)\\
+		Church Skills & & 0.19**\\
+			      & & (0.03)\\
+		\hline
+		N & 2489 & 2415\\
+		R Squared & 0.29 & 0.33\\
+		\hline
+		*p$>$0.95; **p$>$0.99
+		\end{tabular}
 	\end{center}
+Dependent Variable:
+\begin{itemize}
+	\item Political Activity
+\end{itemize}
+Independent Variables:
+\begin{itemize}
+	\item Education: level of qualification
+	\item Job Level: level of training
+	\item Family Income: \$15,000 intervals
+	\item Job Skills: number of specific skills
+	\item Church Skills: specific skills for voluntary work
+\end{itemize}
 \end{minipage}}
-
-
+\begin{enumerate}
+	\item What is the estimated effect of an additional level of educational qualification on the number of political activities undertaken by respondents? Show your calculation based on Model 1.
+	\item What does the direction of the coefficient for family income indicate?
+	\item Does the main result from Model 1 change with the addition of family income, job skills and church skills in Model 2? What, if anything, does this suggest?
+	\item How does the simultaneous addition of family income and job skills in Model 2 affect our interpretation of the change in the coefficient for job level between Model 1 and Model 2?
+	\item What does the change in the size of the R-squared between Model 1 and Model 2 indicate? What could be causing this change?
+\end{enumerate}
 \end{center}
+\newpage
+\noindent\textbf{Question 1:}\\
+Knowing that the regression equation is:
+\begin{center}
+	$Political\;Activity = \beta + \beta _1(Education) + \beta _2(Job\;Level) + \epsilon$
+\\	$Political\;Activity = -1.14 + .37(Education) + 0.07(Job\;Level)$
+\end{center}
+We can set education to 0 and 1 and then see the difference to see what effect a unit increase in education will have on the output such that:
+\begin{center}
+	$[-1.14 + .37\times0 + 0.07(Job\;Level)] - [-1.14 + .37\times1 + 0.07(Job\;Level)]$\\
+	$[-1.14 -(-0.77)]=.37$
+\end{center}
+Therefore, based on Model 1, the estimated effect of an additional level of education qualification, when job level is held constant, is to raise the number of political activities undertaken by the respondent by .37 units.
+
+Alternatively, plug in the right coefficients to show that it is a 0.37 unit increase.
+\\\\
+\textbf{Question 2:}\\
+From the results in Model 2, the direction of the coefficient for Family Income is positive. This indicates that, when all other independent variables in Model 2 are held constant, an increase in family income is associated with an increase in the number of political activities undertaken by respondents.
+\\\\
+\textbf{Question 3:}\\
+The main result from Model 1 is the estimated effect of Education and Job level on the number of political activities undertaken by respondents.
+
+The results suggest that with the addition of Family Income, Job Skills and Church Skills in Model 2, the estimated effect of Job Level has been changed. The size of the coefficient for Job Level decreases from 0.07 to 0.00 whilst standard errors remain the same. Therefore, the level of significance of the coefficient for Job Level is greatly reduced. This, in turn, implies that we are no longer certain that variation in Job Level has a positive effect on the level of political activities as suggested by Model 1.
+
+There are also minor changes to the estimated effect for Education with the addition of new variables in Model 2. The size of the coefficient is reduced, which means the magnitude of the estimated effect of Education on political participation is slightly smaller. Nevertheless, the sign of the coefficient remains the same and the significance level still shows it is statistically significant to the 99th percentile. Hence, even with the addition of new variables, we remain confident about the positive association between Education and political participation observed in Model 1.
+
+The fact that the coefficient associated with Job Skills ceases to be statistically significant in model 2 suggests that the addition of Family Income, Job Skills and Church Skills captures the important elements of the effect of Job Level. In other words, it seems that the positive association between Job Level and Political Activity is, in fact, explained by the income and skills that people hold, which are also likely to be associated with their Job Level i.e. it is absorbed by these other factors.
+\\\\
+\textbf{Question 4:}\\
+The change in estimated effect of Job Level leads us to question the validity of the relationship between Job Level and political participation identified in Model 1. This is because Model 2 shows that once Family Income and Job Skills are added, the coefficient for Job Level loses its significance. A possible explanation for this would be that Job Level is likely to be correlated with both Family Income and Job Skills, and Model 2 shows that variations in the latter two variables are better able to account for respondents' political activities. This also shows that Model 1 probably suffers from \textbf{omitted variable bias.}
+
+The simultaneous addition of both Family Income and Job Skills, along with Church Skills, in Model 2 means that we cannot be sure which of their relationships with Political Activities removes the significance of the relationship between Job Level and Political Activities. In other words, we are not sure whether the apparent relationship between Job Level and Political Activity in Model 1 is actually to do with respondents' incomes, job skills or even church skills, all of which may plausibly be correlated with Job Level. In order to determine which of the new variables or combinations of variables in Model 2 captures the apparent relationship between Job Level and Political Activity in Model 1, we would need to add each of them in turn.
+\\\\
+\textbf{Question 5:}\\
+The size of R$^2$ increased from 0.29 in Model 1 to 0.33 in Model 2. This change indicates that Model 2 has higher explanatory power as it is able to account for 4\% more of the variation in the dependent variable. This change is likely to be caused by the increase of information into the model with the addition of three new variables.
+\\\\
 
 \end{document}
