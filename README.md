@@ -2,13 +2,13 @@
 ## BSc Politics and Economics @ The London School of Economics and Political Science
 
 ### 1st Year Modules Available
-* GV100 - Introduction to Political Theory - Essay Plans and Revision Notes on specific thinkers. Thinkers:
+* GV100 - Introduction to Political Theory - Essay Plans and Revision Notes on specific thinkers.
   - Plato
   - Machiavelli
   - Hobbes
   - Mill
   - Marx with Nkrumah
-* GV101 - Introduction to Political Science - Revision Notes on specific topics from Lent Term. Included are: 
+* GV101 - Introduction to Political Science - Revision Notes on specific topics from Lent Term.
   - Short Answer Question Revision Notes
   - How Govt. Works
   - Presidentialism
