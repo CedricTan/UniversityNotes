@@ -2,6 +2,7 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{graphicx}
 \usepackage{amsmath}
+\usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{tikz}
 \usepackage{pgfplots}
@@ -23,6 +24,8 @@
 This is a review of mathematics lectures by James Ward in Michaelmas Term of 2018. The notes are mine fully and may not be authentic to the lecturer's as they have been modified.
 
 The format of this material is usually recounted slide by slide but some slides may be merged together as the material fits appropriately with one another.
+
+This material tries to go over key concepts but not all lecture slides. This means topics which were found to be more complex for me or requires formulas that are critical to problem-solving success.
 }
 
 \newpage
@@ -30,5 +33,173 @@ The format of this material is usually recounted slide by slide but some slides 
 \newpage
 
 \section{Mathematical Terms and Notation}
+This covers sets and functions
+\subsection{Sets and their Members}
+\textbf{A set is a collection of objects which is defined in a precise way so that any given object is either in the set or not in it.}
+\begin{itemize}
+	\item We call the objects in a set its members or elements
+	\item We use curly brackets when indicating a set by listing its members\\
+		\textbf{Example:} \{1, 2, 3, 4, 5, ....\}
+	\item In particular, sets may have a finite or infinite number of members
+\end{itemize}
+Some sets are important to remember as they have special names:
+\begin{itemize}
+	\item $\mathbb{N}$ is the set of \textbf{natural numbers} i.e. \{1, 2, 3, 4, ... \}
+	\item $\mathbb{Z}$ is the set of \textbf{integers} i.e. \{..., -2, -1, 0, 1, 2, ...\}
+	\item $\mathbb{R}$ is the set of \textbf{real numbers} visualised as the real line
+	\item $\varnothing$ is the \textbf{empty set} i.e. \{ \}
+\end{itemize}
+If we want the set of objects in another set, say $A$, which have a certain property, we use the notation:
+\begin{center}
+	$\{ x \in A\;|\; property\;x\;must\;satisfy\}$
+\end{center}
+i.e. this is the set of all members of the set A that have the property.
+\\\\
+Lastly, we define $\mathbb{R_+}$ to be the set of non-negative real numbers, i.e.
+\begin{center}
+	$\mathbb{R_+} = \{x \in \mathbb{R}\; | \; x \geq 0 \}$
+\end{center}
+\subsection{Comparison of Sets}
+We use the notation $'S \subseteq T'$ to denote that $S$ is a \textbf{subset} of $T$ i.e. that all members of the set $S$ are also members of the set $T$.
+\begin{itemize}
+	\item \textbf{Example:} $\mathbb{N} \subseteq \mathbb{Z},\; \mathbb{N} \subseteq{R}$
+	\item \textbf{Example:} $\mathbb{R_+} \subseteq \mathbb{R}, \; \mathbb{R} \nsubseteq \mathbb{R_+}$
+\end{itemize}
+\subsection{New sets from old}
+The \textbf{union} of two sets, $S$ and $T$ denoted $S \cup T$ is defined as:
+\begin{center}
+	$ S\cup T = \{x\;|\; x \in S\; or\; x \in T\}$
+\end{center}
+The \textbf{intersection} of two sets $S$ and $T$ denoted $S \cap T$ is defined as:
+\begin{center}
+	$S \cap T = \{x\;|\; x \in S\; and\; z \in T\}$
+\end{center}
+The \textbf{difference} of two sets $S$ and $T$ denoted $S \setminus T$ is defined as:
+\begin{center}
+	$S\backslash T = \{x\;|\; x \in S\; and\; x \notin T\}$
+\end{center}
+The \textbf{Cartesian Product} of two sets $S$ and $T$ denoted $S \times T$ is defined as:
+\begin{center}
+	$S \times T = \{(x, y)\;|\;x \in S\; and\; y \in T\}$
+\end{center}
+\subsubsection{Cartesian}
+If we take the Cartesian product of a set with itself i.e. $S \times S$, we usually denote this $S^2$. This is import as if we take the Cartesian product of $\mathbb{R}$ itself we get:
+\begin{center}
+	$\mathbb{R}^2 = \mathbb{R\times R} = \{(x,y) \; | \; x \in \mathbb{R} \; and \; y \in \mathbb{R}\}$
+\end{center}
+This is how we denote the $xy$-plane in terms of sets e.g. $\mathbb{R}^2_+$ would represent the set of all points in the \textbf{non-negative quadrant} of the $xy$-plane. 
+
+\section{Functions and Demand and Supply}
+\subsection{Demand}
+If a product is offered for sale at price $p$ (per unit) what quantity $q$ will the market demand (i.e. purchase)?
+We use a demand model function to understand this concept:
+\begin{center}
+	We denote the demand function as $q^D$\\
+	It is related to price because it is a function of price: $q = q^D(p)$
+\end{center}
+If the curve is suitably well-behaved we can ask the \textbf{inverse question:} if a quantity $q$ is demanded, what price $p$ will the product sell at?
+\begin{center}
+	We denote the inverse demand function as $p^D$\\
+	It is related to quantity because it is a function of quantity: $p = p^D(q)$
+\end{center}
+For example, if we modelled the demand curve by the straight line $5p + q = 40$ we can figure out these two functions be rearranging:
+\begin{itemize}
+	\item $q^D(p) = 40-5p\; as \; q = 40 - 5p$
+	\item $p^D(q) = \frac{40-q}{5}\; as \; p = \frac{40-q}{5}$
+\end{itemize}
+\subsection{Supply}
+If a product can be placed for sale at price $p$ (per unit) what quantity $q$ will the supplier put on the market (i.e. produce)?
+We use a supply model function to understand this concept:
+\begin{center}
+	We denote the demand function as $q^S$\\
+	It is related to price because it is a function of price: $q = q^S(p)$
+\end{center}
+If the curve is suitably well-behaved we can do the inverse again:
+\begin{center}
+	We denote the inverse supply function as $p^S$\\
+	This is a function of quantity: $p = p^S(q)$
+\end{center}
+The example is below with the supply curve $5p - q = 40$:
+\begin{itemize}
+	\item $q^S(p) = 5p-40 \; as \; q = 5p-40$
+	\item $p^s(q) = \frac{40+q}{5} \; as \; p = \frac{40+q}{5}$
+\end{itemize}
+Hence, from the above two, we can begin to model some functions.
+Further, well-behaved curves mean that the curve will give us a proper inverse function.
+The inverses can be verified through using composite functions e.g. $(p^S \circ q^S)(p) = p$
+\subsection{Equilibrium}
+The reason we use these models is to inform us on what $q$ and $p$ will actually be achieved in the market. We have two sets:
+\begin{center}
+	$D = \{(q,p) \;|\; q = q^D(p)\}$ and $S = \{(q,p)\;|\; q = q^S(p)\}$
+\end{center}
+This tells us the factors affecting the demand and supply of a product in the market. To find the equilibrium i.e. where everything being supplied is being purchased, we need an intersection of these two sets:
+\begin{center}
+	$E = D \cap S$
+\end{center}
+This is called \textbf{the equilibrium set} of the market.
+
+\section{Taxation and Recurrence}
+Two questions on supply and demand sets:
+\begin{enumerate}
+	\item If market conditions change, what happens to the equilibrium?
+	\item If markets start away from the equilibrium, can it move towards it?
+\end{enumerate}
+\subsection{Excise Tax}
+This is an example of how market conditions can change.
+The theory goes as follows: A market is governed by a supply function $q^S(p)$ and the demand function $q^D(p)$. If a tax of $T$ is imposed per unit on the product sold, the supplier will pay $T$ per unit sold.
+If a price of $p$ is charged, the supplier gets $p-T$ per unit from the sale.
+The price $p$ is the price per unit seen by consumers and $p-T$ is the effective price per unit seen by suppliers.
+
+The market is now disturbed and we get new but related supply and demand functions:
+\begin{itemize}
+	\item \textbf{New Demand Function:} $q^D_T(p)=q^D(p)$
+	\item \textbf{New Supply Function:} $q^S_T(p) = q^S(p-T)$
+\end{itemize}
+Only the supply function changes if an excise tax is introduced.
+We might want to find the new equilibrium which can be solved by:
+\begin{center}
+	$q^D(p^*_T) = q^S(p^*_T-T) \;or\; q^D_T(p^*_T)=q^S_T(p^*_T)$
+\end{center}
+An example is given below:
+\begin{center}
+	\fbox{\begin{minipage}{.8\textwidth}
+			\begin{center}
+	$D = 5p+q = 40$ and $S = 15p-2q = 20$\\
+	$q^D(p) = 40-5p$ and $q^S(p) = \frac{15}{2}p-10$\\
+	Equating the two we can get $p^*$ and $q^*$\\
+	$p^* = 4$ and $q^* = 20$\\
+	Now suppose that we introduce an excise tax into the market to discourage consumption or gain government revenue\\
+	The new demand function: $q^D_T(p) = q^D(p) = 40-5p$\\
+	The new supply function: $q^S_T(p) = q^S(p-T) = \frac{15}{2}(p-T)-10$\\
+	To solve for the equilibrium we equate: $40-5p^*_T=\frac{15}{2}(p^*_T-T)-10$\\
+	Solving we can get $p^*_T = 4+\frac{3}{5}T$ and using $q^D_T = 40-5(4+\frac{3}{5}T) = 20-3T$\\
+	Hence $E = (20-3T,4+\frac{3}{5}T)$ in the form $E = (q,p)$
+\end{center}
+\end{minipage}}
+\end{center}
+From this example, we can see that quantity in the market is reduced by $3T$ and the price increases by $\frac{3}{5}T$ which means that \textbf{not all the tax is passed onto consumers.}
+
+Moreover, the tax cannot be arbitrarily high if we want our market to function as the equilibrium quantity must be positive. Hence:
+\begin{center}
+	$q^*_T > 0 \rightarrow 20-3T > 0 \rightarrow T<\frac{20}{3}$
+\end{center}
+Thus the maximum tax that can be charged in this market is $\frac{20}{3}$ units of tax.
+
+Tax revenue can also be maximised through optimisation:
+\begin{center}
+	$R_T = q^*_T\times T$\\
+	$R_T = (20-3T)T = 20T-3T^2$\\
+	Differentiating: $\frac{\delta T}{\delta R} = 20 - 6T$\\
+	Finding maximum: $6T = 20,\; T = \frac{10}{3}$\\
+	Revenue: $20(\frac{10}{3}) - 3(\frac{10}{3})^2 = \frac{100}{3}$\\
+	Alternatively you can solve this by completing the square to get $-3(T-\frac{10}{3})^2 + \frac{100}{3}$
+\end{center}
+Sometimes you will also see Tax as a percentage of the price. This would lead to a slightly different equation than $p-T$:
+\begin{center}
+	Suppliers see it as: $p-rp=p(1-r)$\\
+	So the supply function would be $q^S_r(p)=q^S(p(1-r))$
+\end{center}
+
+
 
 \end{document}
