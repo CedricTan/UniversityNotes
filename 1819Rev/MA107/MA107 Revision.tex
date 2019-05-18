@@ -138,7 +138,7 @@ This tells us the factors affecting the demand and supply of a product in the ma
 \end{center}
 This is called \textbf{the equilibrium set} of the market.
 
-\section{Taxation and Recurrence}
+\section{Taxation}
 Two questions on supply and demand sets:
 \begin{enumerate}
 	\item If market conditions change, what happens to the equilibrium?
@@ -200,6 +200,101 @@ Sometimes you will also see Tax as a percentage of the price. This would lead to
 	So the supply function would be $q^S_r(p)=q^S(p(1-r))$
 \end{center}
 
+\section{Recurrence}
+We want to solve recurrence of the form $y_t=ay_{t-1}+b$. This is for $t \geq 1$.
+\begin{itemize}
+	\item If $a=1$ then this is an \textbf{arithmetic progression}
+	\item If $b=0$ then this is a \textbf{geometric progression}
+\end{itemize}
+\subsection{Step 1: Time Independent Solution}
+Let's see if there is a time independent solution $y^*$ i.e. we have $y_t = y^*$ for all $t \geq 0$.
+This means that $y_t$ is a constant independent of t. If this is the case we have:
+\begin{center}
+	$y_t = y^*$ and $y_{t-1} = y^*$
+\end{center}
+That means our equation becomes $y^* = ay^* + b \rightarrow (1-a)y^* = b \rightarrow y^* = \frac{b}{1-a}$.
+This works as long as $a \neq 1$
+\subsection{The Discrepancy}
+This is the difference from the solution we seek and the time independent solution we have such that $z_t = y_t - y^*$. This means we have:
+\begin{center}
+	$z_t = y_t - y^* \rightarrow z_0 = y_0 - y^*$\\
+	This means we have found: $z_t = a^tz_0 \rightarrow y_t - y^* = a^t(y_0-y^*)$\\
+	More neatly: $y_t=y^*+(y_0-y*)a^t$\\
+	\textbf{This is the time dependent solution to the recurrence equation:}\\
+	$y_t = ay_{t-1}+b$\\
+	This can help us solve any recurrence equation of the same form.
+\end{center}
+What happens in the long term depends on the geometric variable:
+\begin{itemize}
+	\item $a > 1,\;  a^t \rightarrow \infty\; as \; t\rightarrow \infty$
+	\item $0 < a < 1,\; a^t \rightarrow 0\; as \; t\rightarrow \infty$
+	\item $-1 < a < 0, \; a^t \rightarrow 0\; as \; t\rightarrow \infty$ but oscillates around 0
+	\item $-1 < a, \; a^t \rightarrow 0\; as \; t\rightarrow \infty$ but oscillates around 0
+\end{itemize}]
+\section{Applications}
+\subsection{Annuity}
+Investment decisions and annuities can be calculated with a recurrence equation:
+\begin{itemize}
+	\item $y_t = (1+r)y_{t-1}-I$ where $(1+r)$ is the interest rate and $I$ is the amount taken out of the annuity
+	\item This is of the form $y_t = ay_{t-1}+b$ which we can solve
+	\item $a=(1+r)$ and $b=(-)I$
+	\item $y^* = \frac{b}{1-a} = {-I}{1-(1+r)} = \frac{I}{r}$
+	\item With our solution of form $y_t=y^* + (y_0 - y^*)a^t$
+	\item We have: $y_t = \frac{I}{r} + (P - \frac{I}{r})(1+r)^t$
+\end{itemize}
+Through this we can figure out our Principal required for a set $I$ to be taken out or the $I$ we can take out for a given Principal:
+\begin{itemize}
+	\item $P = \frac{I}{r}[1-\frac{1}{(1+r)^n}]$ which is form 1
+	\item $I = \frac{Pr(1+r)^n}{(1+r)^n-1}$ which is form 2
+\end{itemize}
+Both of these can be figured out from the recurrence equation above.
+\subsection{Compounding}
+Compounding intervals can be different and provide different outcomes:
+\begin{itemize}
+	\item \textbf{Annually:} $P(1+r)^1$ where $1$ is the number of years
+	\item \textbf{Semi-annually:} $P(1+\frac{r}{2})^2$ where $2$ is the number of compounds in a year $\rightarrow$ after $n$ years we have $P(1+\frac{r}{2})^{2n}$
+	\item \textbf{In General 1:} $P(1+\frac{r}{m})^m$ where $m$ is the number of compounding intervals
+	\item \textbf{In General 2:} $P(1+\frac{r}{m})^{mn}$ where $n$ is years
+	\item \textbf{In General 3:} Where $m \rightarrow \infty$ we get: $Pe^{rn}$ where $e^r$ is the rate of growth for a given interest rate compounded continuously
+\end{itemize}
+
+\subsection{Present Values}
+\begin{itemize}
+	\item Capital Growth would be a function of the Principal such that: $C(P) = Pe^{rn}$
+	\item Present Value would be a function of Capital Growth such that: $P(C) = Ce^{-rn}$
+\end{itemize}
+Simple, present value can be found from a given amount at the end of a period such that: $\frac{x}{(1+r)^n}$.
+However, this does not take into account present values of annuities. This is more complex and can be seen below:
+\begin{center}
+	Payment 1 of an annuity has the value of $\frac{I}{(1+r)}$\\
+	Payment 2 of an annuity has the value of $\frac{I}{(1+r)^2}$\\
+	The sum of all payments: $\frac{I}{(1+r)}+\frac{I}{(1+r)^2}+\dots + \frac{I}{(1+r)^n}$\\
+	This is a geometric series with first term $\frac{I}{1+r}$ and common ratio $\frac{1}{1+r}$\\
+	Hence we can find it with the formula: $\frac{I}{1+r}(\frac{1-(\frac{1}{1+r})^n}{1-\frac{1}{1+r}})$\\
+	More simply: $\frac{I}{r}(1-\frac{1}{(1+r)^n})$
+\end{center}
+
+\subsection{Cobweb Model}
+In general, the Cobweb Model explains how markets converge to the equilibrium or how it may oscillate away or around it.
+\begin{center}
+	$q_t=q^S(p_{t-1})$ and $p_t=p^D(q_t)$ if $p_0 \neq p^*$ for $t \geq 1$\\
+	Supply Function: $q^S(p) = mp-n$\\
+	Demand Function: $q^D(p) = k-lp$\\
+	Equilibrium price: $q^S(\bar{p}) = q^D(\bar{p}) \rightarrow m\bar{p} -n = k - l\bar{p} \rightarrow \bar{p} = \frac{k+n}{m+l}$
+	Equilibrium quantity: $\bar{q} = k - l\frac{k+n}{m+l} = \frac{km-ln}{m+l}$\\
+	$q^S(p) = mp-n \rightarrow q_t = mp_{t-1} - n$\\
+	$q^D(p) = k-lp \rightarrow p^D(q)=\frac{k-q}{l} \rightarrow p_t = \frac{k-q_t}{l}$\\
+	$p_t = \frac{k-(mp_{t-1}-n)}{l} = -\frac{m}{l}p_{t-1}-+\frac{k+n}{l}$\\
+	This gives us a form in a recurrence equation which we can then solve with a time independent solution: $p^* = \frac{k+n}{m+l}$ which is unsurprisingly the equilibrium.
+\end{center}
+From this:
+\begin{itemize}
+	\item If $m < l$ then $p_t$ will oscillate decreasingly to $\bar{p}$ so the market is stable
+	\item If $m = l$ then $p_t$ will oscillate constantly around $\bar{p}$ so the market is cyclic
+	\item If $m > l$ then $p_t$ will oscillate increasingly around $\bar{p}$ so the market is unstable
+\end{itemize}
+
+\section{Differentiation and Optimisation}
 
 
 \end{document}
