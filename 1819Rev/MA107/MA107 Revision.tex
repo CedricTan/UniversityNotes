@@ -294,7 +294,71 @@ From this:
 	\item If $m > l$ then $p_t$ will oscillate increasingly around $\bar{p}$ so the market is unstable
 \end{itemize}
 
+\newpage
 \section{Differentiation and Optimisation}
+
+\subsection{Differentiation Basics}
+There are four ways in which a suitably well defined function can have a point $x = c$ which makes $f'(c)=0$
+\begin{itemize}
+	\item Point of inflection from positive to positive gradient
+	\item Point of inflection from negative to negative gradient
+	\item Local minimum i.e. negative gradient to positive
+	\item Local maximum i.e. positive gradient to negative
+	\end{itemize}
+We can also use the second derivative test to see whether or not the points are \textbf{mins} or \textbf{maxs.}
+\begin{itemize}
+	\item $f''(c) > 0$ then we have a local minimum
+	\item $f''(c) < 0$ then we have a local maximum
+	\item $f''(c) = 0$ this tells us \textbf{nothing}
+\end{itemize}
+So our procedure for optimising a function is:
+\begin{enumerate}
+	\item Find the stationary points using the \textbf{first order condition}
+	\item Find out what they are using out \textbf{tests} 
+	\item Evaluate the function at the stationary points
+	\item Evaluate the function at the end-points of the interval (if any)
+	\item Determine the global maximum or global minimum (if any)
+\end{enumerate}
+
+\subsection{Optimisation}
+\subsubsection{Profit Maximisation}
+Suppose a firm incurs as cost $C(q)$ when it supplies an amount $q$ of its product. It is also a monopoly so the price will be determined by the inverse demand function $p^D(q)$. This means that revenue would be $qp^D(q)$. Such that the profit function is:
+\begin{center}
+	$\Pi(q) = R(q) - C(q) = qp^D(q)-C(q)$
+\end{center}
+How do we maximise this function? Given our cost curve is $C(q) = q^3 - 10q^2 +25q + 10$
+and our inverse demand function is $p^D(q) = 10-q$
+\begin{center}
+	$\Pi(q) = q(10-q) - (q^3 -10q^2 + 25q + 10)$\\
+	$\Pi(q) = 10q-q^2 - q^3 + 10q^2 -25q -10$\\
+	$\Pi(q) = -q^3 +9q^2 -15q -10$\\
+	$\Pi '(q) = -3q^2 + 18q - 15$\\
+	Factorised: $(-3q + 3)(q - 5)$ and knowing our constraint $0 \leq q \leq 10$\\
+	Testing for Mins and Maxs with $\Pi ''(q) = -6q + 18$\\
+	$3q=3 \therefore q= 1$ and $q=5$\\ 
+	For $q=1,\; -6+18 > 0 \therefore local\;minimum$ so $-(1)^3+9(1)^2 - 15(1) - 10 = -15$\\
+	For $q=5,\; -30+18<0 \therefore local\;maximum$ so $ -(5)^3+9(5)^2 -15(5) - 10 = 15$\\
+	Test end points: $0 + 0 + 0 -10 =-10$ and $-(10)^3+9(10)^2-15(10)-10 = -260$\\
+	Hence Global Max: $15$ and Global Min: $-260$
+\end{center}
+\subsubsection{Discounting}
+Suppose we have the option to buy an antique. Market information about this antique suggests that its value in dollars will be given by: $V(t) = 2000 + 500t$ if we were to buy it now and sell it after $t$ years. We also have a bank account which pays continuously compounded interests at a rate of $5\%$ per annum.
+Should we buy the antique? And, if we do, what is the best time to sell it?
+\begin{center}
+	With interest at $5\%$ we can see our present value of investing the $2000$ principal in a bank account:\\
+	$C(P) = Pe^{0.05t}$ and Present Value: $P(C) = e^{-0.05t}$\\
+	So if I know that, I can get $V(t)$ in $t$ years time from selling our antique:\\
+	$P(t) = V(t)e^{-0.005}$ which is the function we want to maximise
+\end{center}
+From the above we get a local maximum of $t=16$ from $P(t)=(2000+500t)(e^{-0.05t})$ where we can apply the product rule to get $-100e^{-0.05t} -25te^{-0.05t}+500e^{-0.05t}=(400-25t)(e^{-0.05t})$. This gives us a value of $t=16$. What maximises our value?
+\begin{center}
+	When $t=16$ we get $[2000+500(16)][e^{-0.05(16)}]= 4,493.29 > P(0)=2000$ when $t=0$\\
+	Hence we should buy the antique and sell it after 16 years.
+\end{center}
+
+
+
+
 
 
 \end{document}
