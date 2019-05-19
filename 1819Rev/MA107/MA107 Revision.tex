@@ -356,6 +356,95 @@ From the above we get a local maximum of $t=16$ from $P(t)=(2000+500t)(e^{-0.05t
 	Hence we should buy the antique and sell it after 16 years.
 \end{center}
 
+\subsection{Efficient Small Firm}
+By small we mean that its output is not large enough to affect the market price and so is it's a \textbf{price taker.} So, if the prevailing price is $p$ and the firm is supplying a quantity $q$ then its profit is given by:
+\begin{center}
+	$\Pi(q) = pq - C(q)$\\
+	$\Pi$ is really a function of two independent variables $p$ and $q$ but because the firm is small, the only variable it has control over is $q$.
+\end{center}
+There are two questions that the firm should ask:
+\begin{enumerate}
+	\item Given the prevailing price $p$, should it bother to enter the market?
+	\item Given $p$, if it should enter, how does it select the optimal level of output $q$?
+\end{enumerate}
+Given the profit function, we can differentiate to optimise:
+\begin{center}
+	$\Pi'(q) = p - C'(q)$\\
+	If $q^*$ satisfies the equation $\Pi'(q)=0$ i.e. $p=C'(q^*)$ a Sty. pt. exists at $q=q^*$\\
+	Also as $q \geq0$ look at the end point where $q=0$
+\end{center}
+There are a few issues though:
+\begin{itemize}
+	\item Can we be sure that the stationary point at $q^*$ is a local maximum?
+	\item If it is, what if $q^*$ leads to a profit which is negative?
+	\item In such coses, should we produce $q^*$ to cut losses or should we refrain from production entirely?
+\end{itemize}
+One thing we notice is that the Profit Function is actually a function of $p$ which is not under the control of the firm. We can change this so that it becomes a function of $q^*$ rather than $p$.
+\begin{center}
+	$\Pi_* = q^*C'(q^*)-C(q^*)$ when we use $p=C'(q^*)$
+\end{center}
+The above is indirect profit where we can treat $q^*$ as an independent variable which is not dependent on $p$. Below are some critical points on where the firm can produce and what this level of production actually means.
+\begin{itemize}
+	\item At $q^*=0, \; \Pi_*(0) = -C(0)$ where we do not produce at all
+	\item At $q_s >0, \; \Pi_*(q_s) =  -C(0)$ where we cover our fixed costs
+	\item At $q_b, \; \Pi_*(q_b) =  0$ where we break even and begin to make a profit
+\end{itemize}
+However, we remember that $q^*$ is strictly a function of $p$ so we can find the effect of prevailing market prices as they correspond with $p = C'(q^*)$. We use the same types of quantities as above:
+\begin{itemize}
+	\item $p_s = C'(q_s)$ so for prices $0 \leq p \leq p_s$ we should supply nothing
+	\item If $p \geq p_s$ we should start supplying $q^* \geq q_s$ as $C'(q^*) \geq C'(q_s)$
+	\item If $p_b = C'(q_b)$ we know for prices $p > p_b$ we will actually make a profit
+\end{itemize}
+This gives us the supply function:
+\begin{center}
+	$q^s(p)=
+	\begin{cases}
+		0 & if \; 0\leq p \leq p_s\\
+		q^*(p) & if \; p\geq p_s
+	\end{cases}$
+\end{center}
+\subsubsection{Small Firm Comment 1}
+Given a cost function, we can call its derivative the marginal cost.
+\begin{center}
+	$C'(q) \simeq \frac{C(q+h)-c(q)}{h}$ for $h$ close to $0$.
+\end{center}
+This is the per unit increase in cost.
+
+\subsubsection{Small Firm Comment 2}
+The start-up point $q_s > 0$ is where we just cover our fixed costs i.e. the profit we make is equal to the profit from making nothing:
+\begin{center}
+	$\Pi_*(q_s) = \Pi_*(0)$\\
+	In our model we have: $q_sC'(q_s) - C(q_s) = -C(0)$\\
+	$\Pi_*(q)=qC'(q)-C(q)$ and re-arranging this we get: $C'(q_s)=\frac{C(q_s)-C(0)}{q_s}$\\
+	If we think about costs: costs = variable costs + fixed costs\\
+	$C(q_s) -C(0) = $ variable costs
+\end{center}
+Hence: marginal cost = average variable cost.
+\subsubsection{Small Firm Comment 3}
+At the break even point we have:
+\begin{center}
+	$\Pi_*(q_b)=0$\\
+	In our current model: $q_bC'(q)-C(q_b)=0 \rightarrow C'(q_b)=\frac{C(q_b)}{q_b}$
+\end{center}
+Hence: marginal cost = average cost
+
+\subsubsection{Small Firm Comment 4}
+If the firm is not a price taker and it is a monopoly, then we can simply use the equation:
+\begin{center}
+	$\Pi(q) = qp^D(q)-C(q)$ where $C(q)$ is the cost of production
+\end{center}
+It is easy to maximise the profit of this firm!
+
+\section{Partial Differentiation}
+This section is about looking at changes independently which may contribute to a total overall change. The key thing to remember is that when we differentiate a function $f(x,y)$ we get functions of both $x$ and $y$ such that we get:
+\begin{itemize}
+	\item \textbf{Two} first-order partial derivatives
+	\item \textbf{Four} second-order partial derivatives
+\end{itemize}
+We call $f_{xy}$ and $f_{yx}$ the mixed second order derivatives. These have a special property:
+\begin{center}
+	\Large{$\frac{\delta^2 f}{\delta y \delta x} = \frac{\delta^2f}{\delta x \delta y}$}
+\end{center}
 
 
 
