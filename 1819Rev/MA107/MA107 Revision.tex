@@ -445,7 +445,132 @@ We call $f_{xy}$ and $f_{yx}$ the mixed second order derivatives. These have a s
 \begin{center}
 	\Large{$\frac{\delta^2 f}{\delta y \delta x} = \frac{\delta^2f}{\delta x \delta y}$}
 \end{center}
+When differentiating, the variables which you are not differentiating with respect to are treated as constants.
+\subsection{Optimising Two Variables}
+There are three stationary points when looking at the optimisation of two variables:
+\begin{enumerate}
+	\item Minimum where both variables are minimised
+	\item Maximum where both variables are maximised
+	\item Saddle-point where one variable is maximised and the other minimised
+\end{enumerate}
+Can we use second-order partial derivatives to figure out the nature of stationary points? Not necessarily. Some cases are special where saddle points can give confusing signals such as the second-order condition being greater than 0 for both variable 1 and variable 2.
 
+\subsubsection{Hessian}
+We define the Hessian $H(x,y)$ to be:
+\begin{center}
+	$H(x,y) = f_{xx}f_{xx}-(f_{xy})^2$
+\end{center}
+Conditions for the Hessian are below:
+\begin{itemize}
+	\item If $H(X,Y) > 0$ and $f_{xx}(X,Y) > 0$ it is a minimum
+	\item If $H(X,Y) > 0$ and $f_{xx}(X, Y) < 0$ it is a maximum
+	\item If $H(X,Y) < 0$ it is a saddle point
+	\item Other cases, this fails
+\end{itemize}
+
+
+\newpage
+\section{Homogeneous Functions}
+We say that a function $f(x, y)$ is homogeneous of degree $r$ if:
+\begin{center}
+	$f(\lambda x, \lambda y ) = \lambda^rf(x, y)$
+\end{center}
+When looking to see if a function is homogeneous, replace all variables with the same variable but a coefficient of $\lambda$ and see if they factorise out neatly into the form above.
+
+\subsection{Applications}
+We can use these functions for production, for example, capital and labour in a function $q{k,l}$. If it is homogeneous of degree $r$ we have:
+\begin{center}
+	$q(\lambda k, \lambda l) = \lambda^r q(k,l)$
+\end{center}
+If we have $\lambda > 1$ we have:
+\begin{itemize}
+	\item $q(k,l)$ giving the amount produced given inputs $k$ and $l$
+	\item $q(\lambda k, \lambda l)$ giving the amount produced given inputs $\lambda k$ and $\lambda l$
+\end{itemize}
+Further, here are some important things to note:
+\begin{itemize}
+	\item If $r>1$ we have $\lambda^r > \lambda$ hence \textbf{increasing returns to scale}
+	\item If $r=1$ we have $\lambda^r = \lambda$ hence \textbf{constant returns to scale}
+	\item If $r<1$ we have $\lambda^r < \lambda$ hence \textbf{decreasing returns to scale}
+\end{itemize}
+
+\subsection{Euler's Theorem}
+If $f(x,y)$ is a homogeneous function of degree $r$ then:
+\begin{center}
+	\Large{$x\frac{\delta f}{\delta x} + y \frac{\delta f}{\delta y} = rf(x, y)$}\\
+\end{center}
+In this course you will be asked to verify or explain its economic interpretation. Also notice that:
+\begin{itemize}
+	\item If capital $k$ is paid for at a rate of: $\frac{\delta Q}{\delta k}=$ Marginal Product of Capital per unit
+	\item If labour $l$ is paid for at a rate of: $\frac{\delta Q}{\delta l} =$ Marginal Product of Labour per unit
+\end{itemize}
+
+\newpage
+\section{Constrained Optimisation}
+This is related to producing with a constraint. Here, we want to minimise costs whilst maximising out output. This can be found by the point at which the constraint curve is tangential to the cost curve.
+\subsection{Lagrangean}
+We use the Lagrangean to solve this constrained optimisation questions:
+\begin{center}
+	$L(x,y, \lambda) = f(x,y) - \lambda g(x,y)$
+\end{center}
+When we are asked to minimise $f(x,y)$ subject to $g(x,y) = 0$ we seek to find the points where we minimise the Lagrangean such that:
+\begin{center}
+	\Large{$\frac{\delta L}{\delta x}=0, \; \frac{\delta L}{\delta y}=0\; and \; \frac{\delta L}{\delta \lambda}=0$}
+\end{center}
+This gives us three partials:
+\begin{enumerate}
+	\item $L_x(x,y,\lambda) = f_x(x,y) - \lambda g_x(x,y) = 0$
+	\item $L_y(x,y, \lambda) = f_y(x, y) - \lambda g_y(x,y) = 0$
+	\item $L_\lambda(x,y, \lambda) = -g(x,y) = 0 \rightarrow g(x,y) = 0$
+\end{enumerate}
+\begin{center}
+	\fbox{\begin{minipage}{.8\textwidth}
+			\begin{center}
+				Minimise $8l + 10k$ subject to $kl=320$ and $k, l \geq 0$\\
+				Constraint function: $g(k,l) = kl-320 = 0$ from $kl=320$\\
+				Lagrangean: $L(x,y, \lambda) = 8l + 10k - \lambda(kl-320)$\\
+				Then differentiate:
+				\begin{itemize}
+					\item $L_k = 10 - \lambda l =0$
+					\item $L_l = 8-\lambda k = 0$
+					\item $l_\lambda = -(kl-320)=0$
+				\end{itemize}
+				Eliminating $\lambda$ from the first two equations gives us: $\lambda=\frac{10}{l}={8}{k} \rightarrow 5k=4l$\\
+				Then substitute into the next equation: $k(\frac{5}{4}k)=320 \rightarrow k^2 = 256 \rightarrow k=\pm 16$\\
+				Since $k > 0$ we have $k=16$ and $l=\frac{5}{4}(16)=20$\\
+				Hence: $(k^*, l^*) = 16,20)$
+
+			\end{center}	
+	\end{minipage}}
+\end{center}
+\subsection{Lagrangean Multiplier}
+This is effectively the \textbf{marginal cost} of production. $\frac{dC}{dQ} = \lambda$. When we differentiate $C$ with respect to $Q$ we get:
+\begin{center}
+	$\frac{dC}{dQ}=w\frac{dl}{dQ}+v\frac{dk}{dQ}$ from $C(k(Q),l(Q)) = wl(q) + vk(Q)$\\
+	Using the Lagrangean form, you can figure out Lambda independently through following the steps previously.
+\end{center}
+
+\subsection{Utility Functions}
+With budget constraints and budget sets, we can see if an individual is able to afford a bundle. For example, for two goods: $p_1x_1+p_2x_2 \leq M$ we have a constraint of $M$ that the individual cannot spend over.
+Individuals may also prefer some bundles over others as well.This is written as:
+\begin{center}
+	$(a_1, a_2) \succ (b_1, b_2)$
+\end{center}
+There are certain ways in which we can do this:
+\begin{enumerate}
+	\item Monetary Value: $p_1a_1 + p_2a_2 > p_1b_1 + p_2b_2$
+	\item Quantity: $a_1 + a_2 > b_1 + b_2$
+	\item Geometric Average: $\sqrt{a_1a_2} > \sqrt{b_1b_2}$
+	\item Substitution: $ma_1 +na_2 > mb_1 + nb_2$
+\end{enumerate}
+We define a utility function to differentiate between preferences such that $U(a_1, a_2) > U(b_1, b_2)$. If they are equal such that $U(a_1, a_2) = U(b_1, b_2)$ we say that the consumer is indifferent between the two. These curves are all shaped differently. They all give us \textbf{convex sets} which means that any two points in the set connected with a straight line will be contained within the set.Thus, we do the same as the Lagrangean:
+\begin{center}
+	$p_1x_1+p_2x_2-M=0$\\
+	$L(x_1, x_2, \lambda) = U(x_1, x_2) - \lambda(p_1x_1+p_2x_2-M)$
+\end{center}
+Lambda in this scenario is the \textbf{marginal utility of income} i.e. how much utility we get for the additional amount we spend.
+
+\section{Matrices}
 
 
 
