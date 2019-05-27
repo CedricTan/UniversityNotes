@@ -5,8 +5,13 @@
 \usepackage{amssymb}
 \usepackage{tikz}
 \usepackage{pgfplots}
+\usepackage{tcolorbox}
 \pgfplotsset{compat=1.16}
 \graphicspath{ {figures_ST107/} }
+\tcbuselibrary{theorems}
+
+\newtcbtheorem[number within=section]{theo}{Note}%
+{colback=white!5,colframe=black!35!black,fonttitle=\bfseries}{th}
 
 \title{
 	{ST107 Quantitative Methods}\\
@@ -30,5 +35,33 @@ The format of this material is usually recounted slide by slide but some slides 
 \newpage
 
 \section{Data Viz and Descriptive Statistics}
+This section covers critical points to remember for the exam.
+\begin{theo}{Variables}{dvds_1}
+	There are two types of variables considered within the course:
+	\begin{enumerate}
+		\item \textbf{Discrete:} thing you can count such as the number of passengers on a flight and the number of telephone calls received each day in a call centre
+		\item \textbf{Continuous:} things you can measure such as height, weight and time all to several decimal places
+	\end{enumerate}
+\end{theo}
+Data can also be presented in a variety of different ways such as Dot Plots, Histograms along with Stem and Leaf diagrams. All of these could be asked in the exam.
+
+\begin{theo}{Classifying Variables}{dvds_2}
+	There are two main ways of classifying variables:
+	\begin{itemize}
+		\item \textbf{Measurable:} where there is a generally recognised method of measuring the variable of interest e.g. cm for height
+		\item \textbf{Categorical:} where no such method exists
+		\begin{itemize}
+			\item \textit{Ordinal:} categorised into a sensible order
+			\item \textit{Nominal:} categorised by names
+		\end{itemize}
+	\end{itemize}
+	Further, there are two key properties of a data set:
+	\begin{enumerate}
+		\item \textbf{Measures of Location:} a central point about which the data tend, also known as measures of central tendency
+		\item \textbf{Measures of Dispersion:} a measure of the variability of the data i.e. how spread out the data are about the central point, also known as measures of spread
+	\end{enumerate}
+\end{theo}
+
+
 
 \end{document}
