@@ -2,6 +2,9 @@
 ## BSc Politics and Economics @ The London School of Economics and Political Science
 
 ### 1st Year Modules Available
+
+First Class Average
+
 * GV100 - Introduction to Political Theory - Essay Plans and Revision Notes on specific thinkers.
   - Plato
   - Machiavelli
@@ -19,6 +22,14 @@
 * ST107 - Statistical Methods - Revision Notes and Examples
 * MA107 - Mathematical Methods - Revision Notes and Examples
 
-Most likely 2nd Year Modules will be fully laid out
+What I acheived with these notes:
 
-Started late with 1st Year Modules so limited amounts
+First Year Grades:
+* GV100 2:1 (67)
+* GV101 2:1 (67)
+* EC102 1:1 (77)
+* ST107 1:1 (77)
+* MA107 1:1 (79)
+* Averages:
+  - Raw: 72
+  - Scaled: 74
