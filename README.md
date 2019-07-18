@@ -3,8 +3,6 @@
 
 ### 1st Year Modules Available
 
-First Class Average
-
 * GV100 - Introduction to Political Theory - Essay Plans and Revision Notes on specific thinkers.
   - Plato
   - Machiavelli
@@ -33,3 +31,11 @@ First Year Grades:
 * Averages:
   - Raw: 72
   - Scaled: 74
+* Final Scaled Grade: First Class (1:1)
+  
+### 2nd Year Modules Available (Preemptive)
+
+* EC210 - Macroeconomic Principles
+* EC220 - Introduction to Econometrics
+* GV225 - Public Choice and Politics
+* GV249 - Research Design in Political Science
