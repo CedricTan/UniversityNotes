@@ -37,5 +37,5 @@ First Year Grades:
 
 * EC210 - Macroeconomic Principles
 * EC220 - Introduction to Econometrics
-* GV225 - Public Choice and Politics
+* GV263 - Public Choice Analysis
 * GV249 - Research Design in Political Science
