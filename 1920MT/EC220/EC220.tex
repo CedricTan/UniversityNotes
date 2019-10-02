@@ -1,0 +1,103 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks = true,
+	linkcolor = black,
+	urlcolor = blue
+}
+
+\setlength{\headheight}{15pt}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\leftmark}
+\lhead{EC220}
+
+\title{
+	{EC220 Introduction to Econometrics}\\
+	{\large{Dr Canh T. Dang}}\\
+	{\large{Lecture Notes}}
+}
+\author{Cedric Tan}
+\date{September 2019}
+\begin{document}
+\maketitle
+{\small
+  \noindent\textbf{Concept}\\
+  Concept. \hspace*{\fill}[1]
+
+  \vspace{10pt}
+  \noindent\textbf{Concept}\\
+  Concept.\hspace*{\fill}[2]
+
+\newpage
+\tableofcontents
+\newpage
+\section{Introduction to Econometrics: Michaelmas Term}
+The initial focus of MT is applied econometrics, particularly causal questions such as "what-if" questions. Mislabelling causality as correlation can be a critical error that people make when analysing data. The course intends to teach you how to analyse data and answer economic questions using "econometrics" and data.
+
+\vspace{10pt}
+\noindent Examples of what-ifs are below:
+\begin{itemize}
+	\item What happens to a country if it withdraws from a trade agreement?
+	\item What is the effect of parents' education on children's education?
+	\item What is the impact on your health if you go to a hospital?
+\end{itemize}
+
+\subsection{Causality}
+\textbf{A causes B:} A contributes (or influences) to the occurrence of event B. The \textit{cause} A is partly responsible for the \textit{effect}
+ B, and the effect B is partly dependent on the cause A. A can be necessary for the occurrence of B, but A can simply lead to fluctuations in B, this is still a causal relationship.
+ 
+\vspace{10pt}
+\noindent So we can take two definitions for causality:
+\begin{itemize}
+	\item A is a necessary condition for B to occur
+	\item A can cause fluctuations in B
+\end{itemize}
+Labels are also necessary for the structure of causation:
+\begin{itemize}
+	\item Event A is called Treatment
+	\item Event B is called the Outcome
+	\item A third variable that causes the two events to happen is called a Confounder
+\end{itemize}
+
+\noindent We can have reverse causality - A causes B but also B causes A. An example would be \textit{Umbrellas} and \textit{Rain} where bringing umbrellas is caused by the possibility of rain. Sometimes timing helps to establish causality - as \textit{Rain} happens before \textit{Umbrellas}, \textit{Umbrellas} cannot cause \textit{Rain}.
+
+\vspace{10pt}
+\noindent Reasons that A and B are correlated:
+\begin{enumerate}
+	\item A causes B (direct causation)
+	\item B causes A (reverse causation)
+	\item A and B are consequences of a common cause but do not cause each other (confounder)
+	\item A causes B and B causes A (bidirectional causation)
+	\item A causes C which then causes B (indirect causation)
+	\item No connection between A and B, the correlation is pure coincidence
+\end{enumerate}
+All statistical techniques only establish associations, causation requires interpretation.\\
+Correlation: the extent to which A and B tend to decrease and increase at the same time.
+
+\vspace{10pt}
+\noindent Causation can occur without correlation, here is an example for medicine:\\
+Illness (A) can cause death (B), but nowadays healthcare (C) can eliminate the correlation between common illness and death.
+
+\subsection{Why Causality?}
+This is the economist's comparative advantage, the ability to infer causality from correlation.
+
+\vspace{10pt}
+\noindent Examples of causality are listed below with classifications like the above.
+\begin{itemize}
+	\item Direct Causation:
+	\item Reverse Causation:
+	\item Confounder Problem:
+	\item Bidirectional Causation:
+	\item Indirect Causation
+	\item Pure Coincidence:
+\end{itemize}
+
+\end{document}
