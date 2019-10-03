@@ -100,4 +100,91 @@ This is the economist's comparative advantage, the ability to infer causality fr
 	\item Pure Coincidence:
 \end{itemize}
 
+\section{Counterfactuals}
+Insured or not insured. Here we will see the use of counterfactuals to infer causality.
+
+\subsection{Health Insurance}
+What is the effect of health insurance on health? Health insurnace started as a voluntary scheme. The Obama "Affordable Care Act": attempted to compel the whole of America to buy health insurance. Similarly, is the NHS a good policy?
+
+% Reference Mastering Metrics here - discussion on NHIS
+
+\textbf{Question:} What is the effect of health insurance on health expenditures and on health outcomes?
+
+\subsubsection{Health Insurance: Causal Questions}
+We want to compare:
+\begin{itemize}
+	\item The health of someone with insurance $Y_i^T$
+	\item The health of the same person without insurance $Y_i^C$
+\end{itemize}
+Though this is not a realistic possibility simply because we cannot have the exact same person simultaneously adopting both approaches. Although the data might show that there is a correlation between Health Insurance and Health, there could be other factors. For example, the United States spends more of its GDP on health care than do other developed nations, yet Americans are surprisingly unhealthy. However, America is also unusual in that is has no universal health insurance scheme. Perhaps there is a causal connection here.
+\begin{itemize}
+	\item The causal effect of insurance: heaving health insurance may lead to better health because of better health care
+	\item The reverse causal effect: the less healthy are more likely to buy insurance
+	\item Confounder effect: the more educated tend to buy insurance more often and they know how to live healthier (possibly)
+	\item Pure coincidence: another possibility
+\end{itemize}
+Many of the working, prime-age poor, however, have long been uninsured. In fact, many uninsured Americans have chosen not to participate in an employer-provided insurance plans. Using the National Health Interview Survey (NHIS), that rates health from poor (1) to excellent (5), we can gauge, with characteristics and analysis of whether or not someone has health insurance or not, the possibility of a causal effect.
+
+\vspace{10pt}
+\noindent Terminology to take into account when looking into this case study:
+\begin{itemize}
+	\item Health insurance coverage for individual $i$ is described by a binary random variable; we call this the \textit{treatment}
+	\begin{center}
+	$D_i = {0,1}$
+	\end{center}
+	\item The outcome of interest, a measure of health status denoted by $Y_i$ and is the index proposed by the NHIS i.e. on a scale from 1 to 5
+	\item Potential outcomes: describes what would have happened to someone under the scenarios where they had or had not been insured. 
+	\item Those with insurance are called the \textit{treatment group}
+	\item Those without insurance are called the \textit{control group}; a good control group reveals the fate of the treated in a counterfactual world where they are not treated
+\end{itemize}
+
+\subsubsection{Fruitless and Fruitful comparisons}
+The critical thing to be mindful of is keeping things equal i.e. \textit{ceteris paribus}. Comparisons of people with and without health insurance are not apples to apples; such contrasts are apples to oranges, or worse. Among other differences, those with health insurance are better educated, have higher income, and are more likely to be working than the uninsured. Many of the differences in characteristics between the two classes are large and most are statistically precise enough to rule out the hypothesis that these discrepancies are merely chance findings. Thus it won't be surprising that most variables listed are high correlated with health as well as with health insurance status. Some other highly associated characteristics
+\begin{itemize}
+	\item Education
+	\item Family income
+	\item Age
+	\item Employed vs Unemployed (less powerful indicator)
+\end{itemize}
+We use the Robert Frost metaphor for understanding the potential outcomes.
+\begin{itemize}
+		\item For everybody there are two potential outcomes \textbf{but only one is actually observed}:
+	\begin{center}
+		\[ Counterfactual =
+		\begin{cases}
+		Y_{1i} & if \; D_i = 0\\
+		Y_{0i} & if \; D_i = 1
+		\end{cases}
+		\]
+	\end{center}
+	\item The treatment effect is the difference between the actual outcome and the counterfactual given the person has insurance. Thus the effect of having insurance for individual $i$ is $Y_{1i} - Y_{0i}$
+\end{itemize}
+To cement this down even further, lets consider the story of two students (K and M) going to MIT who have the option to subscribe to the MIT health insurance plan. Upon reflection, K decides that the MIT insurance is worth paying for since he fears he might get sick. Let's say that for K $Y_{0i} = 3$ and $Y_{1i} = 4$ for $i = K$ For K, the causal effect of insurance is one step up on the NHIS scale:
+\begin{center}
+	$Y_{1,K} - Y_{0,K} = 1$
+\end{center}
+M is also coming to MIT but does not fear sickness whatsoever. Not concerned about the winters in Boston, M does not think she will fall sick easily so opts not to buy the MIT insurance. Because $Y_{0,M} = Y_{1,M} = 1$ we have:
+\begin{center}
+	$Y_{1,M} - Y_{0,M} = 0$
+\end{center}
+We can summarise this data into a table below:
+\begin{center}
+	\begin{tabular}{ccc}
+	\hline
+	\hline
+	& K & M\\
+	\hline
+	Potential outcome without insurance: $Y_{0i}$ & 3 & 5\\
+	Potential outcome with insurance: $Y_{1i}$ & 4 & 5\\
+	Treatment (insurance status chosen): $D_i$ & 1 & 0\\
+	Actual health outcome: $Y_i$ & 4 & 5\\
+	Treatment effect: $Y_{1i} - Y_{0i}$ & 1 & 0\\
+	\hline 
+	\end{tabular}
+\end{center}
+
+
+
+
+
 \end{document}
