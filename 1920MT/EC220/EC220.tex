@@ -182,7 +182,32 @@ We can summarise this data into a table below:
 	\hline 
 	\end{tabular}
 \end{center}
+There is a selection problem for Jones and Maria. This is because:
+\begin{itemize}
+	\item We have: 
+	\begin{center}
+	$E[Y_i|D_i=1]-E[Y_i|D_i=0]$ 
+	\end{center}
+	Which we can call the observed difference in average health.
+	\item This is equivalent to:
+	\begin{center}
+	$E[Y_{1i}|D_i=1]-E[Y_{0i}|D_i=0]$ (Average treatment effect on the treated) $+$ $E[Y_{0i}|D_i=1]-E[Y_{0i}|D_i=0]$ (Selection bias)
+	\end{center}
+	Which we can call the average treatment effect on the treated plus the selection bias
+\end{itemize}
 
+\section{Experiments}
+How do we solve the selection bias? One method is through random assignment of the treatment factor. That is to say that if $D_i$ is randomly assigned, it is (statistically) independent of potential outcomes such that there is no difference between $E[Y_{0i}|D_{i}=1]$ and $E[Y_{0i}|D_{i}=0]$. That means we eliminate out selection bias factor $E[Y_{0i}|D_i=1]-E[Y_{0i}|D_i=0]=0$.
+
+\subsection{Developing the experiment}
+Remember K and M from the MIT observation. If we were to randomly assign treatment in this case, the sample size would be too small. Further, characteristics between K and M would be too different and we would not be able to check for balance.
+
+\vspace{10pt}
+\noindent Thus, we can use the law of large numbers (LLN) to get a larger sample to test on. The theorem states:
+\begin{center}
+	\textbf{The larger the sample, the closer the sample average will become to the population mean. By making the sample large enough, sample statistics and population can be brought as close to what we want.}
+\end{center}
+By having a large sample, we can wash out the random characteristics within our sample size making our experiment more indicative. Our aim is to remove the selection bias when inferring a causal effect, thus, with enough subjects, we can assure balance across the groups. Balance means no \textit{systematic differences} in characteristics e.g. we hold a similar fraction of men and women in each group. We can balance for observed characteristics but we can only assume randomisation would work for unobserved characteristics, such as motivations, incentives and inner behaviours.
 
 
 
