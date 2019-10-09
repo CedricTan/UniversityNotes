@@ -57,19 +57,104 @@ To answer these questions, we take the example island economy with a description
 \end{itemize}
 So from the list above, we can try to create a set of national accounts for the economy.
 
-\vspace{10pt}
-\noindent \textbf{Corporate Sector: Fish producers}\\
+\subsection{National Accounts}
+Listed below are the national accounts created from the island economy above.
+
+\subsubsection{Corporate Sector: Fish Producers}
+
 \begin{center}
 	\begin{tabular}{|c|c|c|c|}
+	\hline
 	& Item & Value & units\\
 	\hline
 	1 & Sales of Fish (Revenues) & \$1,800 & 900\\
 	\hline
 	2 & Net addition to inventory & \$200 & 100\\
 	\hline
-	3 & Production (1+2) & \$2,000 & 1,000
+	3 & Production (1+2) & \$2,000 & 1,000 \\
+	\hline
+	& & &\\
+	\hline
+	4 & Wages paid to workers & \$1,000 & 10\\
+	\hline
+	5 & Interest on debt & \$200 & \\
+	\hline
+	& & &\\
+	\hline
+	6 & Gross Operating Profits [=(3)-(4)-(5)] & \$800 & \\
+	\hline
+	7 & Net Borrowing & \$500 & \\
+	\hline
+	8 & Investment (New Boat) & \$1,000 & 1 \\
+	\hline
+	9 & Dividends [=(6)+(7)-(2)-(8)] & \$100 & \\
+	\hline
 	\end{tabular}
 \end{center}
+
+\subsubsection{Corporate Sector: Restaurants}
+
+\begin{center}
+	\begin{tabular}{|c|c|c|c|}
+	\hline
+	& Item & Value & units\\
+	\hline
+	1 & Sales of Meals (Revenues) & \$2,500 & 250\\
+	\hline
+	&&&\\
+	\hline
+	2 & Purchase of intermediate goods (fish) & \$1,000 & 500\\
+	\hline
+	3 & Wages paid to workers & \$500 & 5 \\
+	\hline
+	4 & Rent of land & \$200 & 4\\
+	\hline
+	5 & Tax on sales & \$250 & \\
+	\hline
+	& & &\\
+	\hline
+	6 & Gross Operating Profits [=(1)-(2)-(3)-(4)-(5)] & \$550 & \\
+	\hline
+	7 & Retained Earnings & \$100 & \\
+	\hline
+	8 & Dividends [=(6)-(7)] & \$450 & \\
+	\hline
+	\end{tabular}
+\end{center}
+
+\subsubsection{Government Sector}
+
+\begin{center}
+	\begin{tabular}{|c|c|c|c|}
+	\hline
+	& Item & Value & units\\
+	\hline
+	1 & Income tax on wages (direct) & \$200 & \\
+	\hline
+	2 & Sales tax (indirect) & \$250 & \\
+	\hline
+	3 & Tax Revenue (1+2) & \$450 & \\
+	\hline
+	& & &\\
+	\hline
+	4 & Wages of government employees & \$500 & 5\\
+	\hline
+	5 & Interest on debt & \$150 & \\
+	\hline
+	& & &\\
+	\hline
+	6 & Budget deficit [=(4)+(5)-(3)] & \$200 & \\
+	\hline
+	\end{tabular}
+\end{center}
+
+\subsubsection{Household Sector: Income}
+
+
+\subsubsection{Household Sector: Expenditure}
+
+
+\subsubsection{International Trade and Income}
 
 \subsection{GDP}
 Gross Domestic Product is the most common measure of the size of an economy. The definition is as follows: \textit{the value of all goods and services produced in a country in a period of time}. A few things about the definition:
@@ -78,10 +163,66 @@ Gross Domestic Product is the most common measure of the size of an economy. The
 	\item It is domestic: that means it covers the geographical area of a country irrespective of ownership or nationality
 	\item Product: it is based on the amounts of goods newly produced, not just sold
 \end{itemize}
-Having understood that, there are further points to note about DP.
+Having understood that, there are further points to note about GDP.
 \begin{itemize}
 	\item GDP aims to include all output for sale in the market and also some non-market output
+	\item Value means market value (where possible)
+	\item Only final goods are counted which means we exclude intermediate goods
+	\item GDP is a flow not a stock so it is measured in a period of time
 \end{itemize}
+There are three equivalent approaches to measure GDP:
+\begin{enumerate}
+	\item Production approach
+	\item Expenditure approach
+	\item Income approach
+\end{enumerate}
+
+\subsubsection{Production Approach}
+This is when we sum all the \textit{value added} over all industries producing goods and services. Here are some key things to remember:
+\begin{itemize}
+	\item Value added equals value of output \textbf{minus} value of intermediate goods used in production. This is to avoid double counting.
+	\item Use market value where possible which can be Price $\times$ Quantity
+	\item For government services where there is no market value, use cost of production as a proxy
+	\item Impute values for some non-market outputs as well such as services from owner-occupied housing
+\end{itemize}
+
+\subsubsection{Expenditure Approach}
+The expenditure approach sums all the expenditures within the economy. This means household consumption, investment, government consumption and net exports.
+\begin{itemize}
+	\item Households consumption is equal to purchases of goods and services by households
+	\item Investment is equal to purchases of new capital goods by firms plus purchases of new residential structures plus net change in inventories of goods
+	\item Government consumption is equal to purchases of goods to provide public services including their own production
+	\item Net exports is equal to the value of exports minus the value of imports
+\end{itemize}
+
+\subsubsection{Income Approach}
+The income approach is the sum of all income derived from the production process. These include:
+\begin{itemize}
+	\item Wages
+	\item Rents
+	\item Net interest paid by firms
+	\item Profits
+	\item Indirect taxes
+\end{itemize}
+Incomes are paid by firms (or the government) and is related to the value of production. Indirect taxes deducted from profits are added back for consistency in relation to the value of production.
+
+\subsection{Comparing GDP}
+We usually compare GDP through price indices and between nominal and real GDP values. We also compare GDP across time and countries. Here is a run down of what we mean by Nominal and Real:
+\begin{itemize}
+	\item \textbf{Nominal} variables are expressed in units of money, with no chance, just as it is recorded
+	\item \textbf{Real} variables are adjusted for changes in the value of money so they aim to capture changes in quantities only and remove the effects of inflation
+\end{itemize}
+When calculating nominal growth, we just compare the figures from year to year. For example:
+\begin{center}
+	Year 1 GDP in US\$: $10,000$\\
+	Year 2 GDP in US\$: $22,000$\\
+	$\frac{22,000-10,000}{10,000} = 1.2$\\
+	That is a 120\% growth in nominal GDP between Year 1 and Year 2.
+\end{center}
+
+We use a base year to calculate the changes in real 
+
+\appendix
 
 \section{National Income and Product Accounts}
 The NIPA is produced by the Bureau of Economic Analysis (BEA), providing information on the value and composition of output produced in the United States during a given period and on the types and uses of the income generated by that production. NIPA begins by considering the transactions that occur in a simple economy in order to introduce the economic concepts that underlie the NIPAs. We also describe the NIPA sectors for which economic activity is measured and the use of T-accounts to illustrate economic flows.
