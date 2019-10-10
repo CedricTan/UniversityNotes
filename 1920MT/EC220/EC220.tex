@@ -315,5 +315,51 @@ Variance of the sample average:
 \begin{center}
 	$$Var(\overline{Y}_n) = Var( \frac{1}{n	} \sum_{i=n}^{n} Y_i)$$
 \end{center}
+The variance of the sample average depends on two things:
+\begin{enumerate}
+	\item The variance of the underlying observations $Y_i$
+	\item The sample size $n$
+\end{enumerate}
+The standard deviation of the sample average\\
+Note that variances don't have the same scale to the original data (due to the square involved) - it makes sense to work with its square root. The sampling standard deviation of the sample average is:
+$$SE(\overline{Y}_n) = \sqrt{Var(\overline{Y}_n)} = \frac{\sigma}{\sqrt{n}}$$
+Comparing averages. In analysing experiments, we want to compare the two averages from the treatment and control group. We want to estimate:
+$$Var(\overline{Y}_n^1 - \overline{Y}_m^2)$$
+
+\subsection{Testing}
+Large and small standard errors
+Hypothesis testing
+The student's t-statistic
+Could the estimate of \$x be consistent with the hypothesis that the two groups averages are the same? Let:
+$$\overline{Y}_n^1 - \overline{Y}_n^2 = \mu$$
+And we want to see if $\mu = \mu_0 = 0$ calculating for the t statistic:
+$$t=\frac{(\overline{Y}_n^1}{•}$$
+
+Three methods:
+\begin{itemize}
+	\item Hypothesis testing
+	\item P-values
+	\item Confidence intervals
+\end{itemize}
+
+\subsubsection{Hypothesis testing}
+The null hypothesis is true if the t-statistic is close to 0 and the alternative hypothesis is true if the t-statistic is sufficiently far away from 0.
+Errors in hypothesis testing:
+\begin{itemize}
+	\item Type 1 error: null hypothesis is true but we reject it
+	\item Type 2 error: null hypothesis is false but we do not reject it
+\end{itemize}
+
+5\% significance level to reject a null hypothesis
+Critical value
+
+The probability of rejecting when the null hypothesis is:
+
+Reduce significant level to avoid easily obtainable significant results
+
+\subsubsection{P-values}
+P-value: how confident you are when you see the evidence to reject the null hypothesis. 
+The smaller the p-value, the more confident one is to reject the null hypothesis
+
 
 \end{document}
