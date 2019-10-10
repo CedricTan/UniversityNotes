@@ -205,7 +205,8 @@ From this, we might believe that K's decision to purchase insurance is counter-p
 \end{center}
 The second part of the equation (in square brackets) is derived byu adding and subtracting $Y_{0,K}$, thereby generating two hidden comparisons that determine the one we see. The first comparison is the causal effect of health insurance on K, which is equal to $1$. The second is the difference between the two student's health status were both to decide insurance which is equal to $-2$. This $-2$ reflects K's relative frailty. Therefore, in the context of our effort to uncover causal effects we find the lack of comparability captured by the second term, as mentioned above, which is the \textbf{selection bias}.
 
-\section{Experiments}
+\newpage
+\section{Introduction to Experiments}
 How do we solve the selection bias? One method is through random assignment of the treatment factor. That is to say that if $D_i$ is randomly assigned, it is (statistically) independent of potential outcomes such that there is no difference between $E[Y_{0i}|D_{i}=1]$ and $E[Y_{0i}|D_{i}=0]$. That means we eliminate out selection bias factor $E[Y_{0i}|D_i=1]-E[Y_{0i}|D_i=0]=0$.
 
 \subsection{Developing the experiment}
@@ -242,6 +243,77 @@ Because randomly assigned treatment and control groups come from the same underl
 	$= \kappa $; which is the average causal effect of insurance on health in this case.
 \end{center}
 
+\subsection{Results and Replication}
+The replication of the results provided a much richer interpretation of a health insurance policy that potentially affects millions of people. Below are some reasons for differences in replication between the RAND and Oregon Trail experiments:
+\begin{itemize}
+	\item Economics is not physics: there are no causal relationships fixed across time and space
+	\item There were different set ups: RAND - with its varying generosity, Oregon trial - insured to uninsured
+	\item There were different populations
+	\item Medicine changed between 1974 and 2008
+\end{itemize}
+Similar results from multiple experiments for related treatments and related population of interests boosts our confidence about the external validity i.e. the transferability of the theory, of our result. The same goes for non-experimental (observational) methods.
 
+\vspace{10pt}
+\noindent Sometimes experiments simply cannot be done. Here are some reasons why:
+\begin{itemize}
+	\item Ethical issues
+	\item Budgets
+	\item Inability to experiment with things that have already happened e.g. Fiscal Policy
+\end{itemize}
+But experiments are constantly occurring within business and government. For example, Google Adwords will randomise adverts to see clicks or compare search results or search trends with marketing targets.
+
+\vspace{10pt}
+\noindent Even if we can't do an experiment, it is useful to think about one i.e. experiments which can be a benchmark for observational methods. Here, we can mimic the ideal experiment through a comparison. However, the experiment is not a silver bullet, there are questions that cannot be answered. For example, events that have happened once and cannot be redone again such as Brexit or the 2007 financial crisis. Although there are similar scenarios, we cannot say that it is the same situation.
+
+\newpage
+\section{Experimental Approaches}
+
+\subsection{Sampling}
+When estimating the treatment effect or checking for balance, how can we tell whether a difference in the means did not arise by chance? There are serveral sources for variability in our estimates:
+\begin{itemize}
+	\item Sample selection: 
+	\item Statistical modelling: our choice of estimators differs
+	\item Imprecision in measurement: the information is not precisely measured
+	\item Sampling: variability caused by different samples from the population
+\end{itemize}
+Here, we focus on how sampling can affect the means in this lecture.
+
+\subsubsection{Populations and Samples}
+We try to analyse a representative sample rather than a whole population. Below are a few terms to take note of:
+\begin{itemize}
+	\item Population mean: the expectation of the population distribution of the Data $Y_i$ or $\mu$. This is a parameter (a fixed number). $\mu = E[Y_i]$
+	\item We would like to also \textit{estimate} this parameter. The sample average:
+	\begin{center}
+		$$\overline{Y}_n = Avg_n(Y_i) = \frac{1}{n}\sum^n_{i=1}Y_i$$
+	\end{center}
+	 is an estimator of the population mean. An estimator is an example of a sample statistic, a function of sample data used to \textit{infer} the parameter.
+	\item An \textit{estimate} is the value the estimator takes on for a particular sample
+	\item Sampling variability is about the size of the differences between: $\overline{Y}_n - \mu$
+\end{itemize}
+
+\subsubsection{Unbiasedness}
+If the estimator is unbiased, we must have $E[\overline{Y}_n] = E[Y_i] = \mu$. This is a very desirable property. Unbiasedness means that in many repeated random samples, the average of the sample averages will equate the population mean. The sample average does not deviate from the mean in any direction, on average. Unbiasedness must hold for samples of any size.
+
+\vspace{10pt}
+\noindent We want to assess the size of $\overline{Y}_n - \mu$. Unbiasedness means that:
+\begin{center}
+	$E[\overline{Y}_n - \mu] = 0$
+\end{center}
+We are also interested in the absolute values of these differences, so we typically look at the squared error terms otherwise we will bear no good result since the expected value, not squared, will average out to 0. Hence we have the equation: $E[\overline{Y}_n - \mu]^2 = 0$
+
+\vspace{10pt}
+\noindent For any random variable $Y_i$, we define variance as:
+\begin{center}
+	$Var(Y_i) = E[\overline{Y}_n -\mu]^2$
+\end{center}
+Conceptually, $E[\overline{Y}_n - E[\overline{Y}_n]]^2$ is the variance of the sample average we would obtain if we drew (infinitely) many samples. If the estimator is unbiased we will have:
+\begin{center}
+	$E[\overline{Y}_n - E[\overline{Y}_n]]^2 = E[\overline{Y}_n -\mu]^2$
+\end{center}
+
+Variance of the sample average:
+\begin{center}
+	$$Var(\overline{Y}_n) = Var( \frac{1}{n	} \sum_{i=n}^{n} Y_i)$$
+\end{center}
 
 \end{document}
