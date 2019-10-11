@@ -333,7 +333,7 @@ The student's t-statistic
 Could the estimate of \$x be consistent with the hypothesis that the two groups averages are the same? Let:
 $$\overline{Y}_n^1 - \overline{Y}_n^2 = \mu$$
 And we want to see if $\mu = \mu_0 = 0$ calculating for the t statistic:
-$$t=\frac{(\overline{Y}_n^1}{•}$$
+$$t=\frac{(\overline{Y}_n^1}{fill}$$
 
 Three methods:
 \begin{itemize}
@@ -360,6 +360,46 @@ Reduce significant level to avoid easily obtainable significant results
 \subsubsection{P-values}
 P-value: how confident you are when you see the evidence to reject the null hypothesis. 
 The smaller the p-value, the more confident one is to reject the null hypothesis
+
+
+\subsubsection{Confidence Interval}
+Confidence intervals (normally at the 95\% confidence level): the set of all values of $\mu_0$ that cannot be rejected in a t-test at the 5\% level.
+
+Confidence intervals versus t-test 
+The t-test for a null hypothesis will reject at significance level $(\alpha)$ if and only if the estimate is outside of a $(1-\alpha)$ confidence level.
+
+\subsubsection{Significance vs Power}
+The power of a test - the probability that it will reject the null hypothesis when the null is false. The power depends on the actual population value of $\mu$ or ($\mu^1 - \mu^2$), the null hypothesis, and the nature of the test statistic (in our case, the Student's t-stat). $$Power = 1-P(Type\; 2\; error)$$
+
+Economic versus Statistical significance
+\textbf{Statistical Significance}
+The null hypothesis that the estimate of interest is statistically different from zero rejected at the respective levels of confidence
+\textbf{Economic significance}
+The prior is economic: total expenses is higher with free coverage - this corresponds to the statistical alternative hypothesis
+
+\section{Matching and Regression}
+Earnings and education
+Confounding story: individuals with higher ability both seek more education and their ability allows them to earn more
+Counterfactual: for a given LSE student, what should she have earned had she only finished high school?
+Randomisation design is not feasible
+Rely on observable selection to control for observable factors underpinning education and earnings
+
+\subsection{A tale of two colleges}
+Choices of two colleges:
+\begin{itemize}
+	\item Harvard University
+	\item University of Massachusetts (U-Mass)
+\end{itemize}
+Large earnings gap between graduates of the two schools but:
+\begin{itemize}
+	\item Possibly Harvard students have better SATs/ACTs and other talents and are more motivated
+	\item Better question to ask: What would the earnings of Harvard students have been if they had gone to U-Mass instead
+\end{itemize}
+We can narrow the match through analysing a subpopulation
+- Earnings of male graduates of Harvard with a SAT of 1,400 vs male graduates of U-Mass with a SAT of 1,400
+- Do this for many individuals to exploit the LLN
+- Decision to go to Harvard or U-Mass has to be random for this comparison to be good
+- 
 
 
 \end{document}
