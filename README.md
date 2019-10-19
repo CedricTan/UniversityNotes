@@ -32,8 +32,8 @@ First Year Grades:
   - Raw: 72
   - Scaled: 74
 * Final Scaled Grade: First Class (1:1)
-  
-### 2nd Year Modules Available (Preemptive)
+
+### 2nd Year Modules Available
 
 * EC210 - Macroeconomic Principles
 * EC220 - Introduction to Econometrics
